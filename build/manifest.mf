@@ -1,0 +1,20 @@
+CACHE MANIFEST
+#revision 302
+
+CACHE:
+/favicon.ico
+index.html
+style.min.css
+scripts/execute.min.js
+scripts/main.min.js
+images/flag/de.png
+images/flag/fr.png
+images/flag/us.png
+images/bg-cropped.jpg
+images/bottom-cropped.jpg
+images/hr.png
+images/top-cropped.jpg
+
+NETWORK:
+http://api.bit.ly
+http://bit.ly

@@ -1,0 +1,465 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"con",
+				"contentDiv"
+			],
+			[
+				"cont",
+				"content"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"clas",
+				"classname"
+			],
+			[
+				"content",
+				"contentDiv"
+			],
+			[
+				"reg",
+				"region"
+			],
+			[
+				"regi",
+				"regionCounts"
+			],
+			[
+				"rego",
+				"regionCounts"
+			],
+			[
+				"mou",
+				"mountains"
+			],
+			[
+				"sym",
+				"symbolText"
+			],
+			[
+				"regio",
+				"region"
+			],
+			[
+				"ti",
+				"tiles"
+			],
+			[
+				"n",
+				"neededRegions"
+			],
+			[
+				"nee",
+				"needed"
+			],
+			[
+				"shu",
+				"shuffled"
+			],
+			[
+				"re",
+				"regions"
+			],
+			[
+				"random",
+				"randomize"
+			],
+			[
+				"ne",
+				"neededRegions"
+			],
+			[
+				"sh",
+				"shuffled"
+			],
+			[
+				"shuffl",
+				"shuffle"
+			],
+			[
+				"rece",
+				"recentGamepoints"
+			],
+			[
+				"win",
+				"winLossString  (variable)"
+			],
+			[
+				"w",
+				"winLossString  (variable)"
+			],
+			[
+				"recent",
+				"recentGamepoints  (function)"
+			],
+			[
+				"expand",
+				"ExpandedGraph"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"on",
+				"onmouseout"
+			],
+			[
+				"Ex",
+				"ExpandedStats"
+			],
+			[
+				"sco",
+				"scoreboard"
+			],
+			[
+				"star",
+				"starcraft"
+			],
+			[
+				"ach",
+				"achievements"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"getElem",
+				"getElementsByClassName  (function)"
+			],
+			[
+				"achie",
+				"achievementIcon"
+			],
+			[
+				"ori",
+				"origMultiplier"
+			],
+			[
+				"back",
+				"backgroundPosition"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"achi",
+				"achievementIcon"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"synjt",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 132.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Dropbox/Small World/content.js",
+		"/D/Dropbox/Small World/everything.txt",
+		"/D/Dropbox/Small World/scripts/maptiles.js",
+		"/D/Dropbox/Small World/scripts/generate.js",
+		"/D/Dropbox/Small World/style.css",
+		"/D/Dropbox/Small World/index.html",
+		"/C/Users/Ian/AppData/Roaming/Sublime Text 2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/D/Dropbox/cosmic/index.html",
+		"/D/Dropbox/cosmic/scripts/misc.js",
+		"/D/Dropbox/cosmic/scripts/objects.js",
+		"/D/Dropbox/cosmic/scripts/achievements.js",
+		"/D/Dropbox/cosmic/scripts/games.js",
+		"/D/Dropbox/cosmic/scripts/variants.js",
+		"/D/Dropbox/cosmic/scripts/config.js",
+		"/D/Dropbox/cosmic/scripts/views.players.js",
+		"/D/Dropbox/cosmic/style.css",
+		"/D/Dropbox/cosmic/scripts/aliens.js",
+		"/C/Documents and Settings/Asmor/Application Data/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Documents and Settings/Asmor/Application Data/Sublime Text 2/Packages/User/BracketHighlighter.sublime-settings",
+		"/C/Documents and Settings/Asmor/Application Data/Sublime Text 2/Packages/BracketHighlighter/BracketHighlighter.sublime-settings",
+		"/C/Documents and Settings/Asmor/Application Data/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/C/Documents and Settings/Asmor/Application Data/Sublime Text 2/Packages/BracketHighlighter/Default (Windows).sublime-keymap",
+		"/D/Dropbox/cosmic/test/foo.bar",
+		"/D/Dropbox/cosmic/variants/CheesyMoons.zip"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"power: \"[^\"]*[^.!]\\)?\"",
+			"power: \"[^\"]*[^.]\"",
+			"power: \"[^\"",
+			"hidden",
+			"’",
+			"\"The ([^\"]*)",
+			"tokens: \"\", ",
+			"Name: (.*)\\nSet: (.*)\\n(?:Tokens: (.*)\\n)?Type: (.*)\\nPower: (.*)\\n",
+			"\\n\\n",
+			"Race Tokens:",
+			" +$",
+			" CURSED$",
+			" GRAND DAMES$",
+			" B[eE] NOT AFRAID$",
+			" SMALL WORLD$",
+			"SMALL WORLD",
+			" UNDERGROUND$",
+			"  +",
+			"POP/ITEM",
+			"(underground|small world|be not afraid|cursed|grand dames)\\n(Power:)",
+			"(Race Tokens: \\d+ \\(\\d+ Max\\))$",
+			"SPECIALABILITY",
+			"(Race Tokens: \\d+)$",
+			"\\n\\n\\n",
+			"#### ",
+			"^(.*?(UNDERGROUND|SMALL WORLD|B[eE] NOT AFRAID|GRAND DAMES|CURSED))",
+			"document.write\\((.*?)\\);",
+			"swReg",
+			"sw",
+			"maptiles",
+			"concat",
+			"n",
+			"splice",
+			"swRe",
+			"html5",
+			"mine",
+			"Mine",
+			"Tunnel",
+			"Magic",
+			"\\t+",
+			"\\t",
+			", ",
+			",",
+			"\"\"",
+			" ",
+			"\\t",
+			"marsh",
+			"Marsh",
+			"Farmland",
+			"Magic",
+			"Forest",
+			"Marsh",
+			"Forest",
+			"Marsh",
+			"Forest",
+			"MuddMusy",
+			"Forest",
+			"show",
+			"\\\\",
+			"foreign",
+			"achievements.len",
+			"function game",
+			"game",
+			"diablo",
+			"achIcon",
+			"achi",
+			"\"(?:diablo|sc)(\\d+)sm.jpg\"",
+			"(?:diablo|sc)(\\d+)sm.jpg",
+			"(?:sc|diablo)(\\d+)(sm.jpg)",
+			"sc\\d",
+			"diablo\\d",
+			"starcraft",
+			"img: \\d",
+			"img: 5",
+			"img: \\d",
+			"tech",
+			"en(\"Cal",
+			"Calculator",
+			"^aliens.push[^\"]*\"([^\"]*)\".*?$"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"collapsed",
+			"'",
+			"\"$1, The",
+			"",
+			"{ type: \"$4\", name: \"$1\", set: \"$2\", tokens: \"$3\", power: \"$5\" }",
+			"\\n\\nName: ",
+			"Tokens:",
+			"",
+			"\\nSet: Cursed",
+			"\\nSet: Grand Dames",
+			"\\nSet: Be Not Afraid",
+			"\\nSet: Small World",
+			"\\nSet: Underground",
+			" ",
+			"$1\\nType: POP/ITEM\\n$2",
+			"$1\\nType: Race",
+			"Power",
+			"$1\\nType: SPECIALABILITY",
+			"\\n\\n",
+			"#### $1",
+			"out += $1",
+			"ugRe",
+			"Mine",
+			"Tunnel",
+			"Magic",
+			" ",
+			"\\t\\t\\t\\t",
+			",\\t",
+			", ",
+			"null",
+			"",
+			"\",\"",
+			"\\1",
+			"addAlien(\"$1\")"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Documents and Settings/Asmor/Application Data/Sublime Text 2/Packages/BracketHighlighter/BracketHighlighter.sublime-settings"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"alien",
+				"scripts/aliens.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 172.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,98 @@
+<project name="Thundermaster" default="dev">
+	<description>
+		Intelligent randomizer for Thunderstone
+	</description>
+	<property name="yui" location="C:\tools\yuicompressor-2.4.2\build\"/>
+	<property name="src" location="src/"/>
+	<property name="build" location="build/"/>
+	<property name="prod" location="${build}"/>
+	<property name="dev" location="${prod}/dev/"/>
+	<propertyfile file="build.properties">
+		<entry key="manifestVersion" type="int" default="0" operation="+"/>
+	</propertyfile>
+	<property file="build.properties"/>
+	
+	<target name="getPassword">
+		<input message="ftp password:" addproperty="password">
+			<handler type="secure"/>
+		</input>
+
+	</target>
+	
+	<target name="dev">
+		<echo message="Revision: ${manifestVersion}"/>
+		<mkdir dir="${dev}"/>
+		<!-- Build HTML -->
+		<concat destfile="${dev}/index.html">
+			<filelist dir="${src}/html" files="header-dev.html,body.html,footer-dev.html"/>
+		</concat>
+		<!-- Copy Scripts -->
+		<copy todir="${dev}/scripts">
+			<fileset dir="${src}/js"/>
+		</copy>
+		<!-- Copy Libraries -->
+		<copy todir="${dev}/scripts">
+			<fileset dir="${src}/lib"/>
+		</copy>
+		<!-- Copy CSS -->
+		<copy todir="${dev}/">
+			<fileset dir="${src}/css"/>
+		</copy>
+		<!-- Copy Images -->
+		<copy todir="${dev}/images">
+			<fileset dir="${src}/images"/>
+		</copy>
+		<copy todir="${dev}/images/flag">
+			<filelist dir="flag" files="us.png,de.png,fr.png"/>
+		</copy>
+	</target>
+	
+	<target name="prod" depends="dev">
+		<mkdir dir="${prod}"/>
+		<!-- Build HTML -->
+		<concat destfile="${prod}/index.html">
+			<filelist dir="${src}/html" files="header-prod.html,body.html,footer-prod.html"/>
+		</concat>
+		<!-- Build main.min.js -->
+		<concat destfile="${prod}/scripts/main.js">
+			<filelist dir="${dev}/scripts" files="jquery.min.js,jquery-cookie-1.0.js,json2.js,functions.js,strings.js,objects.js,init.js,conditions.js,misccards.js,monstercards.js,herocards.js,villagecards.js"/>
+		</concat>
+		<java jar="${yui}/yuicompressor-2.4.2.jar" output="${prod}/scripts/main.min.js" fork="true">
+			<arg value="${prod}/scripts/main.js"/>
+		</java>
+		<delete file="${prod}/scripts/main.js"/>
+		<!-- Build execute.min.js -->
+		<java jar="${yui}/yuicompressor-2.4.2.jar" output="${prod}/scripts/execute.min.js" fork="true">
+			<arg value="${dev}/scripts/execute.js"/>
+		</java>
+		<!-- Build style.min.css -->
+		<java jar="${yui}/yuicompressor-2.4.2.jar" output="${prod}/style.min.css" fork="true">
+			<arg value="${dev}/style.css"/>
+		</java>
+		<!-- Copy images -->
+		<copy todir="${prod}/images">
+			<fileset dir="${dev}/images"/>
+		</copy>
+		<copy todir="${prod}" file="${src}/resources/.htaccess"/>
+		<copy todir="${prod}" file="${src}/resources/manifest.mf" overwrite="true">
+			<filterchain>
+				<replacetokens>
+					<token key="REVISION" value="${manifestVersion}"/>
+				</replacetokens>
+			</filterchain>
+		</copy>
+	</target>
+	
+	<target name="deploy" depends="getPassword,prod">
+		<ftp
+			server="asmor.com"
+			userid="asmor"
+			password="${password}"
+			depends="yes"
+			remotedir="/asmor.com/scripts/tsrand"
+			timediffauto="true">
+			<fileset dir="${prod}"/>
+		</ftp>
+	</target>
+	
+</project>
