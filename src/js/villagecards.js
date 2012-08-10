@@ -441,6 +441,7 @@ cards[local.Village].push(new Card({
 cards[local.Village].push(new Card({
 	name: local.Ranger_s_Wilderness_Map,
 	set: set.towers,
+	removesMonstersFromHall: true,
 	types: "Item"
 }));
 cards[local.Village].push(new Card({

@@ -32,6 +32,7 @@ cards[local.Hero].push(new Card({
 	types: "Elf Ranger",
 	strength: 5,
 	attack: true,
+	removesMonstersFromHall: true,
 	requirements: [
 	]
 }));
@@ -152,6 +153,7 @@ cards[local.Hero].push(new Card({
 	types: "Elf Ranger",
 	strength: 5,
 	attack: true,
+	removesMonstersFromHall: true,
 	requirements: [
 	]
 }));
