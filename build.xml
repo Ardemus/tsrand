@@ -2,11 +2,12 @@
 	<description>
 		Intelligent randomizer for Thunderstone
 	</description>
-	<property name="yui" location="C:\tools\yuicompressor-2.4.2\build\"/>
+	<property name="yui" location="C:\tools\yuicompressor-2.4.7\build\"/>
 	<property name="src" location="src/"/>
 	<property name="build" location="build/"/>
 	<property name="prod" location="${build}"/>
 	<property name="dev" location="${prod}/dev/"/>
+	<property name="aeg" location="build-aeg/"/>
 	<propertyfile file="build.properties">
 		<entry key="manifestVersion" type="int" default="0" operation="+"/>
 	</propertyfile>
@@ -57,16 +58,16 @@
 		<concat destfile="${prod}/scripts/main.js">
 			<filelist dir="${dev}/scripts" files="jquery.min.js,jquery-cookie-1.0.js,json2.js,functions.js,strings.js,objects.js,init.js,conditions.js,misccards.js,monstercards.js,herocards.js,villagecards.js"/>
 		</concat>
-		<java jar="${yui}/yuicompressor-2.4.2.jar" output="${prod}/scripts/main.min.js" fork="true">
+		<java jar="${yui}/yuicompressor-2.4.7.jar" output="${prod}/scripts/main.min.js" fork="true">
 			<arg value="${prod}/scripts/main.js"/>
 		</java>
 		<delete file="${prod}/scripts/main.js"/>
 		<!-- Build execute.min.js -->
-		<java jar="${yui}/yuicompressor-2.4.2.jar" output="${prod}/scripts/execute.min.js" fork="true">
+		<java jar="${yui}/yuicompressor-2.4.7.jar" output="${prod}/scripts/execute.min.js" fork="true">
 			<arg value="${dev}/scripts/execute.js"/>
 		</java>
 		<!-- Build style.min.css -->
-		<java jar="${yui}/yuicompressor-2.4.2.jar" output="${prod}/style.min.css" fork="true">
+		<java jar="${yui}/yuicompressor-2.4.7.jar" output="${prod}/style.min.css" fork="true">
 			<arg value="${dev}/style.css"/>
 		</java>
 		<!-- Copy images -->
@@ -81,6 +82,30 @@
 				</replacetokens>
 			</filterchain>
 		</copy>
+		<mkdir dir="${aeg}"/>
+		<copy todir="${aeg}/images">
+			<fileset dir="${dev}/images"/>
+		</copy>
+		<copy todir="${aeg}" file="${src}/resources/.htaccess"/>
+		<copy todir="${aeg}" file="${src}/resources/manifest.mf" overwrite="true">
+			<filterchain>
+				<replacetokens>
+					<token key="REVISION" value="${manifestVersion}"/>
+				</replacetokens>
+			</filterchain>
+		</copy>
+		<copy todir="${aeg}/scripts">
+			<fileset dir="${prod}/scripts"/>
+		</copy>
+		<copy todir="${aeg}" file="${prod}/index.html">
+			<filterchain>
+				<tokenfilter>
+					<replaceregex pattern=".!-- If you'd like to see the uncompressed code, view ./dev/index.html --." replace="&lt;!-- If you'd like to see the uncompressed code, view http://www.asmor.com/dev/index.html --&gt;"/>
+					<replaceregex pattern='.div class="containerHeader"../div.' replace='&lt;div class="containerHeader"&gt;&lt;a href="http://www.alderac.com/thunderstone/"&gt;&lt;img src="images/ts-logo.png" style="width: 249px; margin: 15px 0 0 195px;"&gt;&lt;/a&gt;&lt;/div&gt;'/>
+				</tokenfilter>
+			</filterchain>
+		</copy>
+		<copy todir="${aeg}" file="${prod}/style.min.css"/>
 	</target>
 	
 	<target name="deploy" depends="getPassword,prod">
