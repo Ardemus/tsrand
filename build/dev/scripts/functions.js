@@ -215,8 +215,12 @@ var Game = {
 				if (deck.length > 0) {
 					out += ("<div style='font-weight:bold;font-size:1.2em'>" + type + "</div>");
 					for (var k = 0; k <deck.length; k++) {
-						var card = deck[k];
-						out += ("<div style='margin-left:10px'>" + card.name + " <span style='font-style:italic;font-size:.6em;'>(" + card.set.code + ")</span></div>");
+						var card = deck[k],
+							lvl = "";
+						if (type === cardTypes[MONSTER] && $("#monsterLevels")[0].checked) {
+							lvl = " Lvl " + card.level + " ";
+						}
+						out += ("<div style='margin-left:10px'>" + card.name + " <span style='font-style:italic;font-size:.6em;'>" + lvl + "(" + card.set.code + ")</span></div>");
 					}
 				}
 			}
