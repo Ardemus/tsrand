@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"mon",
+				"Monster"
+			],
+			[
+				"Vil",
+				"Villager"
+			],
+			[
+				"cav",
+				"caverns"
+			],
+			[
+				"req_v",
+				"req_village_weapon"
+			],
+			[
+				"req_vi",
+				"req_village_light"
+			],
+			[
 				"tex",
 				"text-decoration"
 			],
@@ -167,13 +187,81 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/js/villagecards.js",
+			"settings":
+			{
+				"buffer_size": 15621,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/misccards.js",
+			"settings":
+			{
+				"buffer_size": 5138,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/init.js",
+			"settings":
+			{
+				"buffer_size": 3904,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/monstercards.js",
+			"settings":
+			{
+				"buffer_size": 9700,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/herocards.js",
+			"settings":
+			{
+				"buffer_size": 12244,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/objects.js",
+			"settings":
+			{
+				"buffer_size": 5033,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/functions.js",
+			"settings":
+			{
+				"buffer_size": 20103,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/strings.js",
+			"settings":
+			{
+				"buffer_size": 25115,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 81.0,
 		"selected_items":
 		[
+			[
+				"syntjst",
+				"Set Syntax: JavaScript"
+			],
 			[
 				"synjt",
 				"Set Syntax: JavaScript"
@@ -199,7 +287,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 536.0
+		"width": 440.0
 	},
 	"console":
 	{
@@ -216,6 +304,18 @@
 	},
 	"file_history":
 	[
+		"/D/Dropbox/TSRand/build/dev/scripts/init.js",
+		"/D/Dropbox/TSRand/src/css/style.css",
+		"/D/Dropbox/TSRand/build/style.min.css",
+		"/D/Dropbox/TSRand/src/js/conditions.js",
+		"/D/Dropbox/TSRand/src/js/herocards.js",
+		"/D/Dropbox/TSRand/src/js/monstercards.js",
+		"/D/Dropbox/TSRand/src/js/misccards.js",
+		"/D/Dropbox/TSRand/src/js/objects.js",
+		"/D/Dropbox/TSRand/src/html/body.html",
+		"/D/Dropbox/TSRand/build-aeg/index.html",
+		"/D/Dropbox/TSRand/build.xml",
+		"/D/Dropbox/TSRand/tsrand.sublime-project",
 		"/D/Dropbox/Small World/content.js",
 		"/D/Dropbox/Small World/everything.txt",
 		"/D/Dropbox/Small World/scripts/maptiles.js",
@@ -254,9 +354,48 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
+			"rapp",
+			" =",
+			"thorn",
+			"Thieves_Blade",
+			"heart",
+			"Swamp_Provisions",
+			"thorn",
+			"Scroll_of_Chaos",
+			"Recurve_Bow",
+			"Moonstone",
+			"Lightstone_Gem",
+			"thorn",
+			"Highland_Officer",
+			"wrath",
+			"Foresight_Elixir",
+			"thorn",
+			"heart",
+			"Chalice_Mace",
+			"Spell",
+			"doom",
+			"wrath",
+			", \\d",
+			"Toryn",
+			"cav",
+			"doom",
+			"destroyD",
+			"destroy",
+			"new Requirement\\(([^)]*)\\)",
+			"req_village_weapon",
+			"Treasure",
+			" ",
+			"\\*",
+			"\\t",
+			"bhoi",
+			"yuicompressor",
+			"to",
+			">",
+			"<",
+			"prod",
 			"power: \"[^\"]*[^.!]\\)?\"",
 			"power: \"[^\"]*[^.]\"",
 			"power: \"[^\"",
@@ -343,6 +482,13 @@
 		"regex": true,
 		"replace_history":
 		[
+			":",
+			"\\1",
+			"_",
+			" * ",
+			"*",
+			"&lt;",
+			"&gt;",
 			"collapsed",
 			"'",
 			"\"$1, The",
@@ -387,8 +533,231 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/js/villagecards.js",
+					"settings":
+					{
+						"buffer_size": 15621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14167,
+								14167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9630.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/js/misccards.js",
+					"settings":
+					{
+						"buffer_size": 5138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1008,
+								1008
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/js/init.js",
+					"settings":
+					{
+						"buffer_size": 3904,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								280,
+								280
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/js/monstercards.js",
+					"settings":
+					{
+						"buffer_size": 9700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9598,
+								9598
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6902.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/js/herocards.js",
+					"settings":
+					{
+						"buffer_size": 12244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7939,
+								7939
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6378.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/js/objects.js",
+					"settings":
+					{
+						"buffer_size": 5033,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/js/functions.js",
+					"settings":
+					{
+						"buffer_size": 20103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "src/js/strings.js",
+					"settings":
+					{
+						"buffer_size": 25115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8410,
+								8410
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4698.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -409,11 +778,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.672196796339,
 			1.0
 		],
 		"rows":
