@@ -318,6 +318,49 @@ LANG.us = {
 	Wilderness: "Wilderness",
 	Curses: "Curses",
 
+	//===Caverns of Bane===
+	Caverns_of_Bane: "Caverns of Bane",
+
+	//Heroes
+	Disowned: "Disowned",
+	Forcemage: "Forcemage",
+	Patternmage: "Patternmage",
+	Rapparee: "Rapparee",
+	Skinshifter: "Skinshifter",
+	Spellsword: "Spellsword",
+	Tuath: "Tuath",
+
+	//Village
+	Animal_Talisman: "Animal Talisman",
+	Bloodhound: "Bloodhound",
+	Castellan: "Castellan",
+	Charm_of_Venery: "Charm of Venery",
+	Dwarven_Ale: "Dwarven Ale",
+	Force_Blast: "Force Blast",
+	Historian: "Historian",
+	Liveoak_Staff: "Liveoak Staff",
+	Owl_Eyes: "Owl Eyes",
+	Reckless_Conjure: "Reckless Conjure",
+	Seedbomb: "Seedbomb",
+	Taproot_Blade: "Taproot Blade",
+	Thorn_Caltrops: "Thorn Caltrops",
+
+	//Monster
+	Chiroptid_Humanoid: "Chiroptid * Humanoid",
+	Doomknight_Undead: "Doomknight * Undead",
+	Elemental_Salamander: "Elemental * Salamander",
+	Ooze_Cavern: "Ooze * Cavern",
+	Troll_Humanoid: "Troll * Humanoid",
+	Worm_Vermin: "Worm * Vermin",
+
+	//Thunderstone Bearer
+	Goron_Singlemind: "Goron Singlemind",
+	Mowtil_Djinni_Lich: "Mowtil, Djinni Lich",
+	Xobmokt_Ichor_King: "Xobmokt, Ichor King",
+
+	//Other
+	// (un-named Treasure)
+
 	//UI
 	Allowed: "Allowed",
 	Disallowed: "Disallowed",

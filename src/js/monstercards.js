@@ -3,11 +3,11 @@ cards[local.Monster].push(new Card({
 	set: set.base,
 	level: 2,
 	requirements: [
-		new Requirement(req_hero_cleric), 
-		new Requirement(req_hero_destroys_disease),
-		new Requirement(req_hero_wizard), 
-		new Requirement(req_village_magic_attack), 
-		new Requirement(req_village_weapon)
+		req_hero_cleric, 
+		req_hero_destroys_disease,
+		req_hero_wizard, 
+		req_village_magic_attack, 
+		req_village_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -15,7 +15,7 @@ cards[local.Monster].push(new Card({
 	set: set.heart,
 	level: 2,
 	requirements: [
-		new Requirement(req_village_light_item)
+		req_village_light_item
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -23,10 +23,10 @@ cards[local.Monster].push(new Card({
 	set: set.thorn,
 	level: 2,
 	requirements: [
-		new Requirement(req_hero_destroys_disease),
-		new Requirement(req_hero_fighter),
-		new Requirement(req_village_food),
-		new Requirement(req_village_light_item)
+		req_hero_destroys_disease,
+		req_hero_fighter,
+		req_village_food,
+		req_village_light_item
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -34,10 +34,10 @@ cards[local.Monster].push(new Card({
 	set: set.doom,
 	level: 1,
 	requirements: [
-		new Requirement(req_hero_archer), 
-		new Requirement(req_hero_cleric), 
-		new Requirement(req_hero_destroys_disease),
-		new Requirement(req_hero_wizard)
+		req_hero_archer, 
+		req_hero_cleric, 
+		req_hero_destroys_disease,
+		req_hero_wizard
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -52,9 +52,9 @@ cards[local.Monster].push(new Card({
 	set: set.heart,
 	level: 2,
 	requirements: [
-		new Requirement(req_village_item),
-		new Requirement(req_village_light_item),
-		new Requirement(req_village_weapon)
+		req_village_item,
+		req_village_light_item,
+		req_village_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -62,7 +62,7 @@ cards[local.Monster].push(new Card({
 	set: set.towers,
 	level: 2,
 	requirements: [
-		new Requirement(req_disease_curses)
+		req_disease_curses
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -70,8 +70,16 @@ cards[local.Monster].push(new Card({
 	set: set.thorn,
 	level: 1,
 	requirements: [
-		new Requirement(req_hero_destroys_disease),
-		new Requirement(req_hero_fighter)
+		req_hero_destroys_disease,
+		req_hero_fighter
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Chiroptid_Humanoid,
+	set: set.caverns,
+	level: 1,
+	requirements: [
+		req_village_light,
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -79,8 +87,8 @@ cards[local.Monster].push(new Card({
 	set: set.towers,
 	level: 2,
 	requirements: [
-		new Requirement(req_village_weapon),
-		new Requirement(req_village_item)
+		req_village_weapon,
+		req_village_item
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -88,10 +96,10 @@ cards[local.Monster].push(new Card({
 	set: set.doom,
 	level: 2,
 	requirements: [
-		new Requirement(req_village_item),
-		new Requirement(req_village_light),
-		new Requirement(req_village_spell),
-		new Requirement(req_village_weapon)
+		req_village_item,
+		req_village_light,
+		req_village_spell,
+		req_village_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -99,8 +107,8 @@ cards[local.Monster].push(new Card({
 	set: set.dragonspire,
 	level: 2,
 	requirements: [
-		new Requirement(req_hero_archer),
-		new Requirement(req_village_edged_weapon)
+		req_hero_archer,
+		req_village_edged_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -108,9 +116,21 @@ cards[local.Monster].push(new Card({
 	set: set.base,
 	level: 2,
 	requirements: [
-		new Requirement(req_hero_fighter), 
-		new Requirement(req_village_light), 
-		new Requirement(req_village_weapon)
+		req_hero_fighter, 
+		req_village_light, 
+		req_village_weapon
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Doomknight_Humanoid,
+	set: set.caverns,
+	level: 3,
+	requirements: [
+		req_village_weapon,
+		req_hero_attack,
+		req_hero_magic_attack,
+		req_village_attack,
+		req_village_magic_attack
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -118,10 +138,10 @@ cards[local.Monster].push(new Card({
 	set: set.heart,
 	level: 1,
 	requirements: [
-		new Requirement(req_hero_destroys_disease),
-		new Requirement(req_village_light), 
-		new Requirement(req_village_spell),
-		new Requirement(req_village_weapon)
+		req_hero_destroys_disease,
+		req_village_light, 
+		req_village_spell,
+		req_village_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -129,15 +149,15 @@ cards[local.Monster].push(new Card({
 	set: set.towers,
 	level: 3,
 	requirements: [
-		new Requirement(req_hero_light),
-		new Requirement(req_hero_thief),
-		new Requirement(req_hero_ranger),
-		new Requirement(req_hero_fighter),
-		new Requirement(req_hero_wizard),
-		new Requirement(req_hero_cleric),
-		new Requirement(req_village_edged_weapon),
-		new Requirement(req_village_bow),
-		new Requirement(req_village_spell)
+		req_hero_light,
+		req_hero_thief,
+		req_hero_ranger,
+		req_hero_fighter,
+		req_hero_wizard,
+		req_hero_cleric,
+		req_village_edged_weapon,
+		req_village_bow,
+		req_village_spell
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -145,11 +165,11 @@ cards[local.Monster].push(new Card({
 	set: set.base,
 	level: 3,
 	requirements: [
-		new Requirement(req_hero_attack), 
-		new Requirement(req_hero_magic_attack), 
-		new Requirement(req_village_attack), 
-		new Requirement(req_village_magic_attack), 
-		new Requirement(req_village_weapon)
+		req_hero_attack, 
+		req_hero_magic_attack, 
+		req_village_attack, 
+		req_village_magic_attack, 
+		req_village_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -157,9 +177,9 @@ cards[local.Monster].push(new Card({
 	set: set.towers,
 	level: 3,
 	requirements: [
-		new Requirement(req_village_light),
-		new Requirement(req_village_spell),
-		new Requirement(req_village_weapon)
+		req_village_light,
+		req_village_spell,
+		req_village_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -167,11 +187,11 @@ cards[local.Monster].push(new Card({
 	set: set.promo,
 	level: 3,
 	requirements: [
-		new Requirement(req_hero_archer), 
-		new Requirement(req_hero_cleric), 
-		new Requirement(req_hero_fighter), 
-		new Requirement(req_hero_thief), 
-		new Requirement(req_hero_wizard)
+		req_hero_archer, 
+		req_hero_cleric, 
+		req_hero_fighter, 
+		req_hero_thief, 
+		req_hero_wizard
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -186,9 +206,9 @@ cards[local.Monster].push(new Card({
 	set: set.dragonspire,
 	level: 2,
 	requirements: [
-		new Requirement(req_hero_destroys_disease),
-		new Requirement(req_village_item),
-		new Requirement(req_village_spell)
+		req_hero_destroys_disease,
+		req_village_item,
+		req_village_spell
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -196,10 +216,10 @@ cards[local.Monster].push(new Card({
 	set: set.wrath,
 	level: 2,
 	requirements: [
-		new Requirement(req_hero_magic_attack), 
-		new Requirement(req_village_magic_attack), 
-		new Requirement(req_village_spell), 
-		new Requirement(req_village_weapon)
+		req_hero_magic_attack, 
+		req_village_magic_attack, 
+		req_village_spell, 
+		req_village_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -207,8 +227,21 @@ cards[local.Monster].push(new Card({
 	set: set.wrath,
 	level: 3,
 	requirements: [
-		new Requirement(req_hero_magic_attack), 
-		new Requirement(req_village_magic_attack)
+		req_hero_magic_attack, 
+		req_village_magic_attack
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Elemental_Salamander,
+	set: set.caverns,
+	level: 2,
+	requirements: [
+		req_hero_fighter,
+		req_hero_thief,
+		req_hero_wizard,
+		req_village_item,
+		req_village_spell,
+		req_village_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -216,8 +249,8 @@ cards[local.Monster].push(new Card({
 	set: set.base,
 	level: 1,
 	requirements: [
-		new Requirement(req_hero_magic_attack), 
-		new Requirement(req_village_magic_attack)
+		req_hero_magic_attack, 
+		req_village_magic_attack
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -225,9 +258,9 @@ cards[local.Monster].push(new Card({
 	set: set.doom,
 	level: 2,
 	requirements: [
-		new Requirement(req_hero_cleric),
-		new Requirement(req_disease_special),
-		new Requirement(req_hero_destroys_disease)
+		req_hero_cleric,
+		req_disease_special,
+		req_hero_destroys_disease
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -235,8 +268,8 @@ cards[local.Monster].push(new Card({
 	set: set.dragonspire,
 	level: 2,
 	requirements: [
-		new Requirement(req_hero_strength),
-		new Requirement(req_village_weapon)
+		req_hero_strength,
+		req_village_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -244,10 +277,10 @@ cards[local.Monster].push(new Card({
 	set: set.wrath,
 	level: 3,
 	requirements: [
-		new Requirement(req_hero_magic_attack), 
-		new Requirement(req_hero_strength), 
-		new Requirement(req_village_magic_attack), 
-		new Requirement(req_village_strength)
+		req_hero_magic_attack, 
+		req_hero_strength, 
+		req_village_magic_attack, 
+		req_village_strength
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -262,8 +295,8 @@ cards[local.Monster].push(new Card({
 	set: set.base,
 	level: 1,
 	requirements: [
-		new Requirement(req_hero_destroys_disease),
-		new Requirement(req_village_weapon)
+		req_hero_destroys_disease,
+		req_village_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -271,7 +304,7 @@ cards[local.Monster].push(new Card({
 	set: set.dragonspire,
 	level: 3,
 	requirements: [
-		new Requirement(req_village_weapon)
+		req_village_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -286,8 +319,8 @@ cards[local.Monster].push(new Card({
 	set: set.heart,
 	level: 1,
 	requirements: [
-		new Requirement(req_village_item),
-		new Requirement(req_village_light_item)
+		req_village_item,
+		req_village_light_item
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -295,10 +328,10 @@ cards[local.Monster].push(new Card({
 	set: set.towers,
 	level: 2,
 	requirements: [
-		new Requirement(req_hero_attack),
-		new Requirement(req_hero_magic_attack),
-		new Requirement(req_hero_weak),
-		new Requirement(req_village_weapon)
+		req_hero_attack,
+		req_hero_magic_attack,
+		req_hero_weak,
+		req_village_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -306,9 +339,21 @@ cards[local.Monster].push(new Card({
 	set: set.base,
 	level: 1,
 	requirements: [
-		new Requirement(req_village_edged_weapon), 
-		new Requirement(req_village_food), 
-		new Requirement(req_village_nonedged_weapon)
+		req_village_edged_weapon, 
+		req_village_food, 
+		req_village_nonedged_weapon
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Ooze_Cavern,
+	set: set.caverns,
+	level: 1,
+	requirements: [
+		req_hero_attack,
+		req_hero_magic_attack,
+		req_village_edged_weapon,
+		req_village_polearm_weapon,
+		req_village_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -316,8 +361,8 @@ cards[local.Monster].push(new Card({
 	set: set.dragonspire,
 	level: 1,
 	requirements: [
-		new Requirement(req_village_mercenary),
-		new Requirement(req_village_weapon)
+		req_village_mercenary,
+		req_village_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -346,7 +391,16 @@ cards[local.Monster].push(new Card({
 	set: set.doom,
 	level: 1,
 	requirements: [
-		new Requirement(req_disease_special)
+		req_disease_special
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Troll_Humanoid,
+	set: set.caverns,
+	level: 2,
+	requirements: [
+		req_disease_curses,
+		req_village_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -354,9 +408,9 @@ cards[local.Monster].push(new Card({
 	set: set.base,
 	level: 1,
 	requirements: [
-		new Requirement(req_hero_destroys_disease),
-		new Requirement(req_village_spell), 
-		new Requirement(req_village_weapon)
+		req_hero_destroys_disease,
+		req_village_spell, 
+		req_village_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -364,7 +418,7 @@ cards[local.Monster].push(new Card({
 	set: set.towers,
 	level: 1,
 	requirements: [
-		new Requirement(req_village_weapon)
+		req_village_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -372,14 +426,14 @@ cards[local.Monster].push(new Card({
 	set: set.dragonspire,
 	level: 1,
 	requirements: [
-		new Requirement(req_hero_attack),
-		new Requirement(req_hero_cleric),
-		new Requirement(req_hero_destroys_disease),
-		new Requirement(req_hero_magic_attack),
-		new Requirement(req_hero_wizard),
-		new Requirement(req_village_attack),
-		new Requirement(req_village_magic_attack),
-		new Requirement(req_village_spell)
+		req_hero_attack,
+		req_hero_cleric,
+		req_hero_destroys_disease,
+		req_hero_magic_attack,
+		req_hero_wizard,
+		req_village_attack,
+		req_village_magic_attack,
+		req_village_spell
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -387,7 +441,7 @@ cards[local.Monster].push(new Card({
 	set: set.dragonspire,
 	level: 2,
 	requirements: [
-		new Requirement(req_hero_destroys_disease)
+		req_hero_destroys_disease
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -395,8 +449,8 @@ cards[local.Monster].push(new Card({
 	set: set.towers,
 	level: 1,
 	requirements: [
-		new Requirement(req_disease_curses),
-		new Requirement(req_hero_destroys_disease)
+		req_disease_curses,
+		req_hero_destroys_disease
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -404,7 +458,7 @@ cards[local.Monster].push(new Card({
 	set: set.heart,
 	level: 3,
 	requirements: [
-		new Requirement(req_village_food)
+		req_village_food
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -412,11 +466,11 @@ cards[local.Monster].push(new Card({
 	set: set.base,
 	level: 2,
 	requirements: [
-		new Requirement(req_hero_magic_attack), 
-		new Requirement(req_hero_strength), 
-		new Requirement(req_village_magic_attack), 
-		new Requirement(req_village_strength), 
-		new Requirement(req_village_weapon)
+		req_hero_magic_attack, 
+		req_hero_strength, 
+		req_village_magic_attack, 
+		req_village_strength, 
+		req_village_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -424,11 +478,11 @@ cards[local.Monster].push(new Card({
 	set: set.doom,
 	level: 2,
 	requirements: [
-		new Requirement(req_hero_attack), 
-		new Requirement(req_hero_magic_attack), 
-		new Requirement(req_village_attack), 
-		new Requirement(req_village_magic_attack), 
-		new Requirement(req_village_spell)
+		req_hero_attack, 
+		req_hero_magic_attack, 
+		req_village_attack, 
+		req_village_magic_attack, 
+		req_village_spell
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -436,7 +490,7 @@ cards[local.Monster].push(new Card({
 	set: set.towers,
 	level: 3,
 	requirements: [
-		new Requirement(req_village_blunt_weapon)
+		req_village_blunt_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -444,8 +498,8 @@ cards[local.Monster].push(new Card({
 	set: set.thorn,
 	level: 1,
 	requirements: [
-		new Requirement(req_hero_destroys_disease),
-		new Requirement(req_hero_fighter)
+		req_hero_destroys_disease,
+		req_hero_fighter
 	]
 }));
 cards[local.Monster].push(new Card({
@@ -453,6 +507,16 @@ cards[local.Monster].push(new Card({
 	set: set.promo,
 	level: 2,
 	requirements: [
-		new Requirement(req_village_villager)
+		req_village_villager
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Worm_Vermin,
+	set: set.caverns,
+	level: 3,
+	requirements: [
+		req_hero_magic_attack,
+		req_hero_attack,
+		req_village_light
 	]
 }));

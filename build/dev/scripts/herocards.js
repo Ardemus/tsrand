@@ -43,7 +43,7 @@ cards[local.Hero].push(new Card({
 	strength: 4,
 	attack: true,
 	requirements: [
-		new Requirement(req_village_light_item, 2)
+		req_village_light_item
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -62,7 +62,7 @@ cards[local.Hero].push(new Card({
 	strength: 3,
 	magicAttack: true,
 	requirements: [
-		new Requirement(req_village_spell)
+		req_village_spell
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -93,7 +93,7 @@ cards[local.Hero].push(new Card({
 	destroysDisease: true,
 	magicAttack: true,
 	requirements: [
-		new Requirement(req_village_light_item)
+		req_village_light_item
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -104,7 +104,7 @@ cards[local.Hero].push(new Card({
 	attack: true,
 	light: true,
 	requirements: [
-		new Requirement(req_village_weapon)
+		req_village_weapon
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -114,7 +114,7 @@ cards[local.Hero].push(new Card({
 	strength: 6,
 	attack: true,
 	requirements: [
-		new Requirement(req_village_weapon)
+		req_village_weapon
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -133,7 +133,7 @@ cards[local.Hero].push(new Card({
 	strength: 2,
 	magicAttack: true,
 	requirements: [
-		new Requirement(req_village_villager)
+		req_village_villager
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -143,8 +143,8 @@ cards[local.Hero].push(new Card({
 	strength: 7,
 	attack: true,
 	requirements: [
-		new Requirement(req_village_mercenary),
-		new Requirement(req_village_weapon)
+		req_village_mercenary,
+		req_village_weapon
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -167,6 +167,15 @@ cards[local.Hero].push(new Card({
 	]
 }));
 cards[local.Hero].push(new Card({
+	name: local.Disowned,
+	set: set.caverns,
+	types: "Dwarf Fighter",
+	strength: 6,
+	requirements: [
+		req_village_weapon
+	]
+}));
+cards[local.Hero].push(new Card({
 	name: local.Drua,
 	set: set.towers,
 	types: "Elf Cleric",
@@ -184,8 +193,8 @@ cards[local.Hero].push(new Card({
 	attack: true,
 	light: true,
 	requirements: [
-		new Requirement(req_village_mercenary),
-		new Requirement(req_village_weapon)
+		req_village_mercenary,
+		req_village_weapon
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -205,8 +214,8 @@ cards[local.Hero].push(new Card({
 	strength: 5,
 	attack: true,
 	requirements: [
-		new Requirement(req_village_edged_weapon),
-		new Requirement(req_village_nonedged_weapon)
+		req_village_edged_weapon,
+		req_village_nonedged_weapon
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -229,7 +238,7 @@ cards[local.Hero].push(new Card({
 	light: true,
 	magicAttack: true,
 	requirements: [
-		new Requirement(req_village_light_item)
+		req_village_light_item
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -251,7 +260,17 @@ cards[local.Hero].push(new Card({
 	light: true,
 	magicAttack: true,
 	requirements: [
-		new Requirement(req_village_light_item)
+		req_village_light_item
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Forcemage,
+	set: set.caverns,
+	types: "Human Wizard",
+	strength: 3,
+	magicAttack: true,
+	requirements: [
+		req_village_spell
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -298,8 +317,8 @@ cards[local.Hero].push(new Card({
 	strength: 4,
 	attack: true,
 	requirements: [
-		new Requirement(req_village_food),
-		new Requirement(req_village_item)
+		req_village_food,
+		req_village_item
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -310,7 +329,7 @@ cards[local.Hero].push(new Card({
 	attack: true,
 	magicAttack: true,
 	requirements: [
-		new Requirement(req_village_spell)
+		req_village_spell
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -329,8 +348,8 @@ cards[local.Hero].push(new Card({
 	strength: 5,
 	attack: true,
 	requirements: [
-		new Requirement(req_village_item),
-		new Requirement(req_village_weapon)
+		req_village_item,
+		req_village_weapon
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -349,7 +368,7 @@ cards[local.Hero].push(new Card({
 	strength: 6,
 	attack: true,
 	requirements: [
-		new Requirement(req_village_mercenary)
+		req_village_mercenary
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -370,7 +389,7 @@ cards[local.Hero].push(new Card({
 	attack: true,
 	light: true,
 	requirements: [
-		new Requirement(req_village_light_item)
+		req_village_light_item
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -380,8 +399,8 @@ cards[local.Hero].push(new Card({
 	strength: 5,
 	attack: true,
 	requirements: [
-		new Requirement(req_village_magic_attack),
-		new Requirement(req_village_mercenary)
+		req_village_magic_attack,
+		req_village_mercenary
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -391,8 +410,8 @@ cards[local.Hero].push(new Card({
 	strength: 4,
 	attack: true,
 	requirements: [
-		new Requirement(req_village_light_item),
-		new Requirement(req_village_weapon_edged_weighs_lt_3)
+		req_village_light_item,
+		req_village_weapon_edged_weighs_lt_3
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -402,7 +421,7 @@ cards[local.Hero].push(new Card({
 	strength: 4,
 	attack: true,
 	requirements: [
-		new Requirement(req_village_bow)
+		req_village_bow
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -412,7 +431,16 @@ cards[local.Hero].push(new Card({
 	strength: 7,
 	attack: true,
 	requirements: [
-		new Requirement(req_village_food)
+		req_village_food
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Patternmage,
+	set: set.caverns,
+	types: "Human Wizard",
+	strength: 2,
+	magicAttack: true,
+	requirements: [
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -422,6 +450,17 @@ cards[local.Hero].push(new Card({
 	strength: 5,
 	attack: true,
 	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Rapparee,
+	set: set.caverns,
+	types: "Elf Thief",
+	strength: 3,
+	attack: true,
+	requirements: [
+		req_village_weapon,
+		req_village_item
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -450,7 +489,7 @@ cards[local.Hero].push(new Card({
 	strength: 5,
 	magicAttack: true,
 	requirements: [
-		new Requirement(req_village_spell)
+		req_village_spell
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -460,8 +499,8 @@ cards[local.Hero].push(new Card({
 	strength: 2,
 	magicAttack: true,
 	requirements: [
-		new Requirement(req_village_spell_magic_attack),
-		new Requirement(req_village_item)
+		req_village_spell_magic_attack,
+		req_village_item
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -472,7 +511,17 @@ cards[local.Hero].push(new Card({
 	destroysDisease: true,
 	magicAttack: true,
 	requirements: [
-		new Requirement(req_disease_special)
+		req_disease_special
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Skinshifter,
+	set: set.caverns,
+	types: "Dwarf Cleric",
+	strength: 3,
+	attack: true,
+	destroysDisease: true,
+	requirements: [
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -482,6 +531,18 @@ cards[local.Hero].push(new Card({
 	strength: 5,
 	attack: true,
 	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Spellsword,
+	set: set.caverns,
+	types: "Elf Fighter",
+	strength: 5,
+	attack: true,
+	magicAttack: true,
+	requirements: [
+		req_village_magic_attack,
+		req_village_spell
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -500,8 +561,8 @@ cards[local.Hero].push(new Card({
 	strength: 6,
 	attack: true,
 	requirements: [
-		new Requirement(req_village_weapon),
-		new Requirement(req_village_mercenary)
+		req_village_weapon,
+		req_village_mercenary
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -519,9 +580,9 @@ cards[local.Hero].push(new Card({
 	types: "Fighter Cleric",
 	strength: 3,
 	attack: true,
-	destroyDisease: true,
+	destroysDisease: true,
 	requirements: [
-		new Requirement(req_village_villager)
+		req_village_villager
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -560,7 +621,7 @@ cards[local.Hero].push(new Card({
 	strength: 6,
 	attack: true,
 	requirements: [
-		new Requirement(req_village_food)
+		req_village_food
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -570,7 +631,18 @@ cards[local.Hero].push(new Card({
 	strength: 7,
 	attack: true,
 	requirements: [
-		new Requirement(req_village_weapon, 2)
+		req_village_weapon
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Tuath,
+	set: set.caverns,
+	types: "Human Ranger",
+	strength: 4,
+	attack: true,
+	removesMonstersFromHall: true,
+	requirements: [
+		req_village_weapon
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -590,7 +662,7 @@ cards[local.Hero].push(new Card({
 	attack: true,
 	light: true,
 	requirements: [
-		new Requirement(req_village_spell)
+		req_village_spell
 	]
 }));
 cards[local.Hero].push(new Card({
@@ -601,7 +673,7 @@ cards[local.Hero].push(new Card({
 	magicAttack: true,
 	light: true,
 	requirements: [
-		new Requirement(req_village_weapon)
+		req_village_weapon
 	]
 }));
 cards[local.Hero].push(new Card({

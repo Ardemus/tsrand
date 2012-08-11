@@ -169,6 +169,14 @@ req_village_edged_weapon=new Condition({
 	}
 });
 
+req_village_polearm_weapon=new Condition({
+	name: "req_village_polearm_weapon",
+	type:local.Village,
+	match: function(card) {
+		return (card.is("Weapon") && card.is("Polearm"))
+	}
+});
+
 req_village_food=new Condition({
 	name: "req_village_food",
 	type:local.Village,

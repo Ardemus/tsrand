@@ -3,6 +3,20 @@ cards[local.Thunderstone].push(new Card({
 	set: set.towers
 }));
 cards[local.Thunderstone].push(new Card({
+	name: local.Goron_Singlemind,
+	set: set.caverns
+}));
+cards[local.Thunderstone].push(new Card({
+	name: local.Mowtil_Djinni_Lich,
+	set: set.caverns,
+	requirements: [
+		req_hero_magic_attack,
+		req_hero_attack,
+		req_village_magic_attack,
+		req_village_attack
+	]
+}));
+cards[local.Thunderstone].push(new Card({
 	name: local.Orseg,
 	set: set.towers
 }));
@@ -38,27 +52,31 @@ cards[local.Thunderstone].push(new Card({
 	name: local.Stramst,
 	set: set.towers
 }));
+cards[local.Thunderstone].push(new Card({
+	name: local.Xobmokt_Ichor_King,
+	set: set.caverns
+}));
 
 cards[local.Trap].push(new Card({
 	name: local.Trap_Death,
 	set: set.wrath,
 	requirements: [
-		new Requirement(req_hero_thief)
+		req_hero_thief
 	]
 }));
 cards[local.Trap].push(new Card({
 	name: local.Trap_Dire,
 	set: set.wrath,
 	requirements: [
-		new Requirement(req_hero_thief),
-		new Requirement(req_hero_cleric)
+		req_hero_thief,
+		req_hero_cleric
 	]
 }));
 cards[local.Trap].push(new Card({
 	name: local.Trap_Draconic,
 	set: set.dragonspire,
 	requirements: [
-		new Requirement(req_hero_thief),
+		req_hero_thief,
 	]
 }));
 
@@ -102,7 +120,7 @@ cards[local.Guardian].push(new Card({
 	name: local.Guardian_of_Virulence,
 	set: set.thorn,
 	requirements: [
-		new Requirement(req_hero_destroys_disease)
+		req_hero_destroys_disease
 	]
 }));
 cards[local.Guardian].push(new Card({
@@ -143,6 +161,12 @@ cards[local.Treasure].push(new Card({
 	]
 }));
 cards[local.Treasure].push(new Card({
+	name: local.Treasure,
+	set: set.caverns,
+	requirements: [
+	]
+}));
+cards[local.Treasure].push(new Card({
 	name: local.Ulbrick_s_Treasure,
 	set: set.doom,
 	requirements: [
@@ -172,7 +196,7 @@ cards[local.Setting].push(new Card({
 	name: local.Dreadwatch,
 	set: set.dragonspire,
 	requirements: [
-		new Requirement(req_hero_destroys_disease)
+		req_hero_destroys_disease
 	]
 }));
 cards[local.Setting].push(new Card({

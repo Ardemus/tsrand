@@ -13,6 +13,14 @@ cards[local.Village].push(new Card({
 	strength: true
 }));
 cards[local.Village].push(new Card({
+	name: local.Animal_Talisman,
+	set: set.caverns,
+	types: "Item Light Magic",
+	light: true,
+	strength: true,
+	magicAttack: true
+}));
+cards[local.Village].push(new Card({
 	name: local.Arcane_Energies,
 	set: set.base,
 	types: "Spell",
@@ -71,6 +79,13 @@ cards[local.Village].push(new Card({
 	weight: 4
 }));
 cards[local.Village].push(new Card({
+	name: local.Bloodhound,
+	set: set.caverns,
+	types: "Village Mercenary",
+	attack: true,
+	weight: 4
+}));
+cards[local.Village].push(new Card({
 	name: local.Bluefire_Staff,
 	set: set.dragonspire,
 	types: "Weapon Blunt Magic",
@@ -95,10 +110,21 @@ cards[local.Village].push(new Card({
 	types: "Spell"
 }));
 cards[local.Village].push(new Card({
+	name: local.Castellan,
+	set: set.caverns,
+	types: "Villager"
+}));
+cards[local.Village].push(new Card({
 	name: local.Chalice_Mace,
 	set: set.heart,
 	attack: true,
 	types: "Weapon Blunt"
+}));
+cards[local.Village].push(new Card({
+	name: local.Charm_of_Venery,
+	set: set.caverns,
+	attack: true,
+	types: "Item Light Magic"
 }));
 cards[local.Village].push(new Card({
 	name: local.Chieftan_s_Drum,
@@ -169,6 +195,12 @@ cards[local.Village].push(new Card({
 	types: "Villager Mercenary"
 }));
 cards[local.Village].push(new Card({
+	name: local.Dwarven_Ale,
+	set: set.caverns,
+	types: "Item Food",
+	attack: true
+}));
+cards[local.Village].push(new Card({
 	name: local.Dwarven_Bear_Hammer,
 	set: set.towers,
 	types: "Weapon Blunt",
@@ -223,6 +255,12 @@ cards[local.Village].push(new Card({
 	attack: true,
 	light: true,
 	weight: 2
+}));
+cards[local.Village].push(new Card({
+	name: local.Force_Blast,
+	set: set.caverns,
+	types: "Spell Attack Light",
+	magicAttack: true
 }));
 cards[local.Village].push(new Card({
 	name: local.Foresight_Elixir,
@@ -306,6 +344,11 @@ cards[local.Village].push(new Card({
 	types: "Villager Mercenary"
 }));
 cards[local.Village].push(new Card({
+	name: local.Historian,
+	set: set.caverns,
+	types: "Villager"
+}));
+cards[local.Village].push(new Card({
 	name: local.Illusory_Blade,
 	set: set.wrath,
 	types: "Spell"
@@ -344,6 +387,12 @@ cards[local.Village].push(new Card({
 	set: set.base,
 	types: "Item Light Magic",
 	light: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Liveoak_Staff,
+	set: set.caverns,
+	types: "Weapon Blunt",
+	attack: true
 }));
 cards[local.Village].push(new Card({
 	name: local.Longsword,
@@ -389,6 +438,11 @@ cards[local.Village].push(new Card({
 	set: set.towers,
 	types: "Item Light",
 	light: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Owl_Eyes,
+	set: set.caverns,
+	types: "Spell Support"
 }));
 cards[local.Village].push(new Card({
 	name: local.Pawnbroker,
@@ -452,6 +506,11 @@ cards[local.Village].push(new Card({
 	weight: 5
 }));
 cards[local.Village].push(new Card({
+	name: local.Reckless_Conjure,
+	set: set.caverns,
+	types: "Spell Support"
+}));
+cards[local.Village].push(new Card({
 	name: local.Ritual_of_Cleansing,
 	set: set.heart,
 	magicAttack: true,
@@ -476,6 +535,13 @@ cards[local.Village].push(new Card({
 	name: local.Scroll_of_Chaos,
 	set: set.thorn,
 	types: "Item Magic"
+}));
+cards[local.Village].push(new Card({
+	name: local.Seedbomb,
+	set: set.caverns,
+	types: "Weapon Magic",
+	magicAttack: true,
+	destroysDisease: true
 }));
 cards[local.Village].push(new Card({
 	name: local.Short_Bow,
@@ -585,6 +651,14 @@ cards[local.Village].push(new Card({
 	types: "Item Food"
 }));
 cards[local.Village].push(new Card({
+	name: local.Taproot_Blade,
+	set: set.caverns,
+	types: "Weapon Edged Light",
+	magicAttack: true,
+	light: true,
+	destroysDisease: true
+}));
+cards[local.Village].push(new Card({
 	name: local.Tavern_Brawl,
 	set: set.wrath,
 	types: "Villager"
@@ -600,6 +674,12 @@ cards[local.Village].push(new Card({
 	types: "Weapon Edged",
 	attack: true,
 	weight: 3
+}));
+cards[local.Village].push(new Card({
+	name: local.Thorn_Caltrops,
+	set: set.caverns,
+	types: "Weapon",
+	attack: true
 }));
 cards[local.Village].push(new Card({
 	name: local.Thunder_Ring,

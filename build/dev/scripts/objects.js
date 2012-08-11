@@ -29,8 +29,13 @@ function Card(arg) {
 	if (!this.level)
 		this.level = false;
 	this.requirements=arg.requirements;
-	if (!this.requirements)
+	if (!this.requirements) {
 		this.requirements=[];
+	} else {
+		for (var i = 0; i < this.requirements.length; i++) {
+			this.requirements[i] = new Requirement(this.requirements[i]);
+		}
+	}
 	this.execute = arg.execute;
 	if (!this.execute)
 		this.execute=false;

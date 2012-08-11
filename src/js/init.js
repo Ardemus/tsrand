@@ -54,6 +54,7 @@ for (var i=0; i<cardTypes.length; i++)
 //Sets
 var set={
 	base: new Set(local.Base, "Base", "B"),
+	caverns: new Set(local.Caverns_of_Bane, "CavernsOfBane", "CB"),
 	doom: new Set(local.Doomgate_Legion, "DoomgateLegion", "DL"),
 	dragonspire: new Set(local.Dragonspire, "Dragonspire", "DS"),
 	heart: new Set(local.Heart_of_Doom, "HeartOfDoom", "HD"),
