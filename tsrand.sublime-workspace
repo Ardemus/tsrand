@@ -250,6 +250,22 @@
 				"buffer_size": 25115,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "build.xml",
+			"settings":
+			{
+				"buffer_size": 4413,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build-aeg/manifest.mf",
+			"settings":
+			{
+				"buffer_size": 301,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -533,7 +549,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -748,6 +764,59 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 4698.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "build.xml",
+					"settings":
+					{
+						"buffer_size": 4413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3334,
+								3334
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 112.0,
+						"translation.y": 900.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "build-aeg/manifest.mf",
+					"settings":
+					{
+						"buffer_size": 301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								301
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -12,14 +12,14 @@
 		<entry key="manifestVersion" type="int" default="0" operation="+"/>
 	</propertyfile>
 	<property file="build.properties"/>
-	
+
 	<target name="getPassword">
 		<input message="ftp password:" addproperty="password">
 			<handler type="secure"/>
 		</input>
 
 	</target>
-	
+
 	<target name="dev">
 		<echo message="Revision: ${manifestVersion}"/>
 		<mkdir dir="${dev}"/>
@@ -47,12 +47,18 @@
 			<filelist dir="flag" files="us.png,de.png,fr.png"/>
 		</copy>
 	</target>
-	
+
 	<target name="prod" depends="dev">
 		<mkdir dir="${prod}"/>
 		<!-- Build HTML -->
 		<concat destfile="${prod}/index.html">
 			<filelist dir="${src}/html" files="header-prod.html,body.html,footer-prod.html"/>
+			<filterchain>
+				<replacetokens>
+					<token key="DEVPATH" value="./dev/index.html"/>
+					<token key="TSLOGO" value=""/>
+				</replacetokens>
+			</filterchain>
 		</concat>
 		<!-- Build main.min.js -->
 		<concat destfile="${prod}/scripts/main.js">
@@ -79,6 +85,7 @@
 			<filterchain>
 				<replacetokens>
 					<token key="REVISION" value="${manifestVersion}"/>
+					<token key="TSLOGO" value=""/>
 				</replacetokens>
 			</filterchain>
 		</copy>
@@ -91,23 +98,25 @@
 			<filterchain>
 				<replacetokens>
 					<token key="REVISION" value="${manifestVersion}"/>
+					<token key="TSLOGO" value="images/ts-logo.png"/>
 				</replacetokens>
 			</filterchain>
 		</copy>
 		<copy todir="${aeg}/scripts">
 			<fileset dir="${prod}/scripts"/>
 		</copy>
-		<copy todir="${aeg}" file="${prod}/index.html">
+		<concat destfile="${aeg}/index.html">
+			<filelist dir="${src}/html" files="header-prod.html,body.html,footer-prod.html"/>
 			<filterchain>
-				<tokenfilter>
-					<replaceregex pattern=".!-- If you'd like to see the uncompressed code, view ./dev/index.html --." replace="&lt;!-- If you'd like to see the uncompressed code, view http://www.asmor.com/dev/index.html --&gt;"/>
-					<replaceregex pattern='.div class="containerHeader"../div.' replace='&lt;div class="containerHeader"&gt;&lt;a href="http://www.alderac.com/thunderstone/"&gt;&lt;img src="images/ts-logo.png" style="width: 249px; margin: 15px 0 0 195px;"&gt;&lt;/a&gt;&lt;/div&gt;'/>
-				</tokenfilter>
+				<replacetokens>
+					<token key="DEVPATH" value="http://asmor.com/scripts/dev/index.html"/>
+					<token key="TSLOGO" value='&lt;a href="http://www.alderac.com/thunderstone/"&gt;&lt;img src="images/ts-logo.png" style="width: 249px; margin: 15px 0 0 195px;"&gt;&lt;/a&gt;'/>
+				</replacetokens>
 			</filterchain>
-		</copy>
+		</concat>
 		<copy todir="${aeg}" file="${prod}/style.min.css"/>
 	</target>
-	
+
 	<target name="deploy" depends="getPassword,prod">
 		<ftp
 			server="asmor.com"
@@ -119,5 +128,5 @@
 			<fileset dir="${prod}"/>
 		</ftp>
 	</target>
-	
+
 </project>
