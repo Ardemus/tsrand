@@ -359,7 +359,7 @@ LANG.us = {
 	Xobmokt_Ichor_King: "Xobmokt, Ichor King",
 
 	//Other
-	// (un-named Treasure)
+	Treasures_of_Caligin: "Treasures of Caligin",
 
 	//UI
 	Allowed: "Allowed",

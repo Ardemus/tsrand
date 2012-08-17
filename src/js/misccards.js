@@ -161,7 +161,7 @@ cards[local.Treasure].push(new Card({
 	]
 }));
 cards[local.Treasure].push(new Card({
-	name: local.Treasure,
+	name: local.Treasures_of_Caligin,
 	set: set.caverns,
 	requirements: [
 	]
