@@ -56,6 +56,13 @@ cards[local.Thunderstone].push(new Card({
 	name: local.Xobmokt_Ichor_King,
 	set: set.caverns
 }));
+cards[local.Thunderstone].push(new Card({
+	name: local.King_Caelan,
+	set: set.root,
+	requirements: [
+		req_village_mercenary
+	]
+}));
 
 cards[local.Trap].push(new Card({
 	name: local.Trap_Death,
@@ -141,6 +148,12 @@ cards[local.Guardian].push(new Card({
 	requirements: [
 	]
 }));
+cards[local.Guardian].push(new Card({
+	name: local.Archdruid,
+	set: set.root,
+	requirements: [
+	]
+}));
 
 cards[local.Treasure].push(new Card({
 	name: local.Amulet_Treasure,
@@ -169,6 +182,12 @@ cards[local.Treasure].push(new Card({
 cards[local.Treasure].push(new Card({
 	name: local.Ulbrick_s_Treasure,
 	set: set.doom,
+	requirements: [
+	]
+}));
+cards[local.Treasure].push(new Card({
+	name: local.Treasures_of_Dun_Ordha,
+	set: set.root,
 	requirements: [
 	]
 }));

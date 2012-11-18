@@ -394,6 +394,9 @@ var Render = {
 		var toReturn="<li class='listHeader' id='"+type.cssId+"'>"+type.name+" <span class='typeOptions'>";
 		toReturn += Controls.getNumericBoxes(type);
 		toReturn += "</span></li>";
+		cards[type.name].sort(function (a, b) {
+			return a.name > b.name ? 1 : -1;
+		});
 		for (var i=0; i<cards[type.name].length; i++) {
 			var card = cards[type.name][i];
 			var set = card.set.cssId;
@@ -536,7 +539,7 @@ var Util = {
 	},
 
 	log: function (s) {
-		//return false;
+		// return false;
 		/*if (document.getElementById("showLog").checked) {
 			for (logi=0; logi<Options.indent; logi++) {
 				document.getElementById("log").value+="\t";

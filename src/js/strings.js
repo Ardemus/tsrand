@@ -361,6 +361,55 @@ LANG.us = {
 	//Other
 	Treasures_of_Caligin: "Treasures of Caligin",
 
+	//===Root of Corruption===
+	Root_of_Corruption: "Root of Corruption",
+
+	//Heroes
+
+	Armsman: "Armsman",
+	Blademage: "Blademage",
+	Honormain: "Honormain",
+	Moonclaw: "Moonclaw",
+	Profaned: "Profaned",
+	Silvertongue: "Silvertongue",
+	Woodguard: "Woodguard",
+
+	//Monsters
+
+	Djinnbound_Corrupted: "Djinnbound * Corrupted",
+	Elemental_Earth: "Elemental * Earth",
+	Gnoll_Humanoid: "Gnoll * Humanoid",
+	Incarnate_Abyssal: "Incarnate * Abyssal",
+	Royal_Guard_Corrupted: "Royal Guard * Corrupted",
+	Summon_Old_World: "Summon * Old World",
+
+	//Guardian
+	Archdruid: "Archdruid",
+
+	//Thunderstone Bearer
+	King_Caelan: "King Caelan",
+
+	//Village
+	Blood_Debt: "Blood Debt",
+	Circle_of_Protection: "Circle of Protection",
+	Cursed_Dagger: "Cursed Dagger",
+	Debased_Wizard: "Debased Wizard",
+	Elven_Waybread: "Elven Waybread",
+	Greatsword: "Greatsword",
+	Hedge_Witch: "Hedge Witch",
+	Hysterical_Villager: "Hysterical Villager",
+	Labrys: "Labrys",
+	Liveoak_Bow: "Liveoak Bow",
+	Maul: "Maul",
+	Mind_Control: "Mind Control",
+	Rage_of_the_Disowned: "Rage of the Disowned",
+	Stablehand: "Stablehand",
+	Tincture_of_Victims: "Tincture of Victims",
+
+	//Treasure
+	Treasures_of_Dun_Ordha: "Treasures of Dun Ordha",
+
+
 	//UI
 	Allowed: "Allowed",
 	Disallowed: "Disallowed",

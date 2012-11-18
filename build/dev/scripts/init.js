@@ -59,6 +59,7 @@ var set={
 	dragonspire: new Set(local.Dragonspire, "Dragonspire", "DS"),
 	heart: new Set(local.Heart_of_Doom, "HeartOfDoom", "HD"),
 	promo: new Set(local.Promo, "Promo", "P"),
+	root: new Set(local.Root_of_Corruption, "RootofCorruption", "RC"),
 	thorn: new Set(local.Thornwood_Siege, "ThornwoodSiege", "TS"),
 	towers: new Set(local.Towers_of_Ruin, "TowersOfRuin", "TR"),
 	wrath: new Set(local.Wrath_Of_The_Elements, "WrathOfTheElements", "WE")

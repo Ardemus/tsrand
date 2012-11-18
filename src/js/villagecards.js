@@ -750,3 +750,99 @@ cards[local.Village].push(new Card({
 	types: "Weapon Blunt",
 	weight: 5
 }));
+cards[local.Village].push(new Card({
+	name: local.Blood_Debt,
+	set: set.root,
+	types: "Item"
+}));
+cards[local.Village].push(new Card({
+	name: local.Circle_of_Protection,
+	set: set.root,
+	types: "Spell	Auxiliary",
+	light: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Cursed_Dagger,
+	set: set.root,
+	types: "Weapon	Edged",
+	attack: true,
+	weight: 2
+}));
+cards[local.Village].push(new Card({
+	name: local.Debased_Wizard,
+	set: set.root,
+	types: "Villager	Mercenary",
+	light: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Elven_Waybread,
+	set: set.root,
+	types: "Item	Food",
+	strength: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Greatsword,
+	set: set.root,
+	types: "Weapon	Edged",
+	attack: true,
+	weight: 7
+}));
+cards[local.Village].push(new Card({
+	name: local.Hedge_Witch,
+	set: set.root,
+	types: "Villager	Mercenary",
+	destroysDisease: true,
+	magicAttack: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Hysterical_Villager,
+	set: set.root,
+	types: "Villager"
+}));
+cards[local.Village].push(new Card({
+	name: local.Labrys,
+	set: set.root,
+	types: "Weapon	Edged",
+	attack: true,
+	weight: 6
+}));
+cards[local.Village].push(new Card({
+	name: local.Liveoak_Bow,
+	set: set.root,
+	types: "Weapon	Bow",
+	attack: true,
+	weight: 4
+}));
+cards[local.Village].push(new Card({
+	name: local.Maul,
+	set: set.root,
+	types: "Weapon	Blunt",
+	attack: true,
+	weight: 3
+}));
+cards[local.Village].push(new Card({
+	name: local.Mind_Control,
+	set: set.root,
+	types: "Spell	Auxiliary",
+	removesMonstersFromHall: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Rage_of_the_Disowned,
+	set: set.root,
+	types: "Spell	Support",
+	attack: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Stablehand,
+	set: set.root,
+	types: "Villager",
+	destroysDisease: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Tincture_of_Victims,
+	set: set.root,
+	types: "Item	Food	Magic",
+	attack: true,
+	magicAttack: true,
+	strength: true
+}));

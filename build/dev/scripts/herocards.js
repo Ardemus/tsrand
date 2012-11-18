@@ -705,3 +705,73 @@ cards[local.Hero].push(new Card({
 		
 	]
 }));
+cards[local.Hero].push(new Card({
+	name: local.Armsman,
+	set: set.root,
+	types: "Dwarf	Fighter",
+	strength: 6,
+	attack: true,
+	requirements: [
+		req_village_weapon
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Blademage,
+	set: set.root,
+	types: "Human	Wizard",
+	strength: 3,
+	magicAttack: true,
+	requirements: [
+		req_village_spell
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Honormain,
+	set: set.root,
+	types: "Human	Fighter	Cleric",
+	strength: 5,
+	attack: true,
+	magicAttack: true,
+	destroysDisease: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Moonclaw,
+	set: set.root,
+	types: "Corvaxis	Ranger",
+	attack: true,
+	strength: 5,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Profaned,
+	set: set.root,
+	types: "Human	Cleric	Wizard",
+	strength: 3,
+	attack: true,
+	light: true,
+	destroysDisease: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Silvertongue,
+	set: set.root,
+	types: "Human	Thief",
+	strength: 4,
+	attack: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Woodguard,
+	set: set.root,
+	types: "Treefolk	Cleric",
+	strength: 10,
+	attack: true,
+	requirements: [
+		req_village_weapon
+	]
+}));

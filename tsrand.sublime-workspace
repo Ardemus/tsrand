@@ -188,66 +188,10 @@
 	"buffers":
 	[
 		{
-			"file": "src/js/villagecards.js",
+			"file": "build-aeg/manifest.mf",
 			"settings":
 			{
-				"buffer_size": 15621,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/misccards.js",
-			"settings":
-			{
-				"buffer_size": 5138,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/init.js",
-			"settings":
-			{
-				"buffer_size": 3904,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/monstercards.js",
-			"settings":
-			{
-				"buffer_size": 9700,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/herocards.js",
-			"settings":
-			{
-				"buffer_size": 12244,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/objects.js",
-			"settings":
-			{
-				"buffer_size": 5033,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/functions.js",
-			"settings":
-			{
-				"buffer_size": 20103,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/strings.js",
-			"settings":
-			{
-				"buffer_size": 25115,
+				"buffer_size": 320,
 				"line_ending": "Windows"
 			}
 		},
@@ -255,15 +199,47 @@
 			"file": "build.xml",
 			"settings":
 			{
-				"buffer_size": 4413,
+				"buffer_size": 4399,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "build-aeg/manifest.mf",
+			"file": "src/html/header-prod.html",
 			"settings":
 			{
-				"buffer_size": 301,
+				"buffer_size": 605,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/html/body.html",
+			"settings":
+			{
+				"buffer_size": 3970,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/misccards.js",
+			"settings":
+			{
+				"buffer_size": 5150,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/strings.js",
+			"settings":
+			{
+				"buffer_size": 25138,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "gitpush.bat",
+			"settings":
+			{
+				"buffer_size": 52,
 				"line_ending": "Windows"
 			}
 		}
@@ -320,14 +296,20 @@
 	},
 	"file_history":
 	[
+		"/D/Dropbox/TSRand/src/resources/manifest.mf",
+		"/D/Dropbox/TSRand/src/js/strings.js",
+		"/D/Dropbox/TSRand/src/js/functions.js",
+		"/D/Dropbox/TSRand/src/js/objects.js",
+		"/D/Dropbox/TSRand/src/js/herocards.js",
+		"/D/Dropbox/TSRand/src/js/monstercards.js",
+		"/D/Dropbox/TSRand/src/js/init.js",
+		"/D/Dropbox/TSRand/src/js/misccards.js",
+		"/D/Dropbox/TSRand/src/js/villagecards.js",
+		"/D/Dropbox/TSRand/build-aeg/manifest.mf",
 		"/D/Dropbox/TSRand/build/dev/scripts/init.js",
 		"/D/Dropbox/TSRand/src/css/style.css",
 		"/D/Dropbox/TSRand/build/style.min.css",
 		"/D/Dropbox/TSRand/src/js/conditions.js",
-		"/D/Dropbox/TSRand/src/js/herocards.js",
-		"/D/Dropbox/TSRand/src/js/monstercards.js",
-		"/D/Dropbox/TSRand/src/js/misccards.js",
-		"/D/Dropbox/TSRand/src/js/objects.js",
 		"/D/Dropbox/TSRand/src/html/body.html",
 		"/D/Dropbox/TSRand/build-aeg/index.html",
 		"/D/Dropbox/TSRand/build.xml",
@@ -549,83 +531,94 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/js/villagecards.js",
+					"file": "build-aeg/manifest.mf",
 					"settings":
 					{
-						"buffer_size": 15621,
+						"buffer_size": 320,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14167,
-								14167
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 9630.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/js/misccards.js",
+					"file": "build.xml",
 					"settings":
 					{
-						"buffer_size": 5138,
+						"buffer_size": 4399,
 						"regions":
 						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										4067,
+										4067
+									]
+								],
+								"scope": "bookmarks"
+							}
 						},
 						"selection":
 						[
 							[
-								1008,
-								1008
+								3229,
+								3229
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/XML/XML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 270.0,
+						"translation.y": 1080.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "src/js/init.js",
+					"file": "src/html/header-prod.html",
 					"settings":
 					{
-						"buffer_size": 3904,
+						"buffer_size": 605,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								280,
-								280
+								577,
+								584
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -635,45 +628,45 @@
 				},
 				{
 					"buffer": 3,
-					"file": "src/js/monstercards.js",
+					"file": "src/html/body.html",
 					"settings":
 					{
-						"buffer_size": 9700,
+						"buffer_size": 3970,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9598,
-								9598
+								111,
+								111
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6902.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "src/js/herocards.js",
+					"file": "src/js/misccards.js",
 					"settings":
 					{
-						"buffer_size": 12244,
+						"buffer_size": 5150,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7939,
-								7939
+								3271,
+								3271
 							]
 						],
 						"settings":
@@ -682,25 +675,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6378.0,
+						"translation.y": 1893.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "src/js/objects.js",
+					"file": "src/js/strings.js",
 					"settings":
 					{
-						"buffer_size": 5033,
+						"buffer_size": 25138,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								9467,
+								9467
 							]
 						],
 						"settings":
@@ -709,111 +702,30 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4986.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "src/js/functions.js",
+					"file": "gitpush.bat",
 					"settings":
 					{
-						"buffer_size": 20103,
+						"buffer_size": 52,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								52,
+								52
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/js/strings.js",
-					"settings":
-					{
-						"buffer_size": 25115,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8410,
-								8410
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4698.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "build.xml",
-					"settings":
-					{
-						"buffer_size": 4413,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3334,
-								3334
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 112.0,
-						"translation.y": 900.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "build-aeg/manifest.mf",
-					"settings":
-					{
-						"buffer_size": 301,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								301
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Batch File/Batch File.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

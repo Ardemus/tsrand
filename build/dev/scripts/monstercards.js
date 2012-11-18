@@ -520,3 +520,67 @@ cards[local.Monster].push(new Card({
 		req_village_light
 	]
 }));
+cards[local.Monster].push(new Card({
+	name: local.Djinnbound_Corrupted,
+	set: set.root,
+	level: 1,
+	requirements: [
+		req_hero_destroys_disease,
+		req_village_light
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Elemental_Earth,
+	set: set.root,
+	level: 3,
+	requirements: [
+		req_hero_attack,
+		req_hero_magic_attack,
+		req_village_strength,
+		req_village_edged_weapon
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Gnoll_Humanoid,
+	set: set.root,
+	level: 2,
+	requirements: [
+		req_village_weapon,
+		req_village_item,
+		req_village_spell
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Incarnate_Abyssal,
+	set: set.root,
+	level: 3,
+	requirements: [
+		req_hero_attack,
+		req_hero_magic_attack,
+		req_village_light,
+		req_village_strength,
+		req_village_weapon
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Royal_Guard_Corrupted,
+	set: set.root,
+	level: 2,
+	requirements: [
+		req_village_strength,
+		req_hero_attack,
+		req_hero_magic_attack,
+		req_village_weapon,
+		req_village_item
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Summon_Old_World,
+	set: set.root,
+	level: 1,
+	requirements: [
+		req_village_item,
+		req_village_weapon,
+		req_hero_destroys_disease
+	]
+}));
