@@ -602,7 +602,8 @@ cards[local.Hero].push(new Card({
 	strength: 3,
 	magicAttack: true,
 	requirements: [
-	]
+	],
+	removesMonstersFromHall: true
 }));
 cards[local.Hero].push(new Card({
 	name: local.Thundermage,
@@ -663,7 +664,8 @@ cards[local.Hero].push(new Card({
 	light: true,
 	requirements: [
 		req_village_spell
-	]
+	],
+	removesMonstersFromHall: true
 }));
 cards[local.Hero].push(new Card({
 	name: local.Veris,

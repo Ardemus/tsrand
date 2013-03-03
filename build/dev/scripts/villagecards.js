@@ -76,7 +76,8 @@ cards[local.Village].push(new Card({
 	set: set.doom,
 	types: "Weapon Blunt",
 	magicAttack: true,
-	weight: 4
+	weight: 4,
+	removesMonstersFromHall: true
 }));
 cards[local.Village].push(new Card({
 	name: local.Bloodhound,
@@ -480,7 +481,8 @@ cards[local.Village].push(new Card({
 cards[local.Village].push(new Card({
 	name: local.Polymorph,
 	set: set.dragonspire,
-	types: "Spell"
+	types: "Spell",
+	removesMonstersFromHall: true
 }));
 cards[local.Village].push(new Card({
 	name: local.Power_Word_Kill,

@@ -120,6 +120,7 @@ body {
 .containerHeader {
 	height: 100px;
 	background: url("images/top-cropped.jpg") no-repeat scroll left top transparent;
+	text-align: center;
 }
 .containerFooter {
 	height: 62px;
@@ -216,6 +217,7 @@ ul {
 }
 #dungeonTypes {
 	float: left;
+	clear: left;
 }
 #villageTypes {
 	float: right;

@@ -110,7 +110,7 @@
 			<filterchain>
 				<replacetokens>
 					<token key="DEVPATH" value="http://asmor.com/scripts/dev/index.html"/>
-					<token key="TSLOGO" value='&lt;a href="http://www.alderac.com/thunderstone/"&gt;&lt;img src="images/ts-logo.png" style="width: 249px; margin: 15px 0 0 195px;"&gt;&lt;/a&gt;'/>
+					<token key="TSLOGO" value='&lt;a href="http://www.alderac.com/thunderstone/"&gt;&lt;img src="images/ts-logo.png" style="width: 249px; margin-top: 15px;"&gt;&lt;/a&gt;'/>
 				</replacetokens>
 			</filterchain>
 		</concat>

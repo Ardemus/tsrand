@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-color"
+			],
+			[
+				"req_we",
+				"req_village_edged_weapon"
+			],
+			[
+				"req_vi",
+				"req_village_light  (variable)"
+			],
+			[
+				"mo",
+				"removesMonstersFromHall"
+			],
+			[
+				"req",
+				"req_village_weapon"
+			],
+			[
+				"req_",
+				"req_village_spell"
+			],
+			[
 				"mon",
 				"Monster"
 			],
@@ -18,10 +42,6 @@
 			[
 				"req_v",
 				"req_village_weapon"
-			],
-			[
-				"req_vi",
-				"req_village_light"
 			],
 			[
 				"tex",
@@ -172,10 +192,6 @@
 				"origMultiplier"
 			],
 			[
-				"back",
-				"backgroundPosition"
-			],
-			[
 				"im",
 				"img"
 			],
@@ -188,58 +204,10 @@
 	"buffers":
 	[
 		{
-			"file": "build-aeg/manifest.mf",
-			"settings":
-			{
-				"buffer_size": 320,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "build.xml",
-			"settings":
-			{
-				"buffer_size": 4399,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/html/header-prod.html",
-			"settings":
-			{
-				"buffer_size": 605,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/html/body.html",
-			"settings":
-			{
-				"buffer_size": 3970,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/misccards.js",
-			"settings":
-			{
-				"buffer_size": 5150,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "src/js/strings.js",
 			"settings":
 			{
-				"buffer_size": 25138,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "gitpush.bat",
-			"settings":
-			{
-				"buffer_size": 52,
+				"buffer_size": 25460,
 				"line_ending": "Windows"
 			}
 		}
@@ -247,7 +215,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 81.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -279,11 +247,14 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 440.0
+		"width": 416.0
 	},
 	"console":
 	{
-		"height": 132.0
+		"height": 132.0,
+		"history":
+		[
+		]
 	},
 	"distraction_free":
 	{
@@ -296,23 +267,30 @@
 	},
 	"file_history":
 	[
-		"/D/Dropbox/TSRand/src/resources/manifest.mf",
-		"/D/Dropbox/TSRand/src/js/strings.js",
-		"/D/Dropbox/TSRand/src/js/functions.js",
-		"/D/Dropbox/TSRand/src/js/objects.js",
+		"/D/Temp/thornwood siege strings",
 		"/D/Dropbox/TSRand/src/js/herocards.js",
-		"/D/Dropbox/TSRand/src/js/monstercards.js",
-		"/D/Dropbox/TSRand/src/js/init.js",
-		"/D/Dropbox/TSRand/src/js/misccards.js",
 		"/D/Dropbox/TSRand/src/js/villagecards.js",
-		"/D/Dropbox/TSRand/build-aeg/manifest.mf",
-		"/D/Dropbox/TSRand/build/dev/scripts/init.js",
-		"/D/Dropbox/TSRand/src/css/style.css",
-		"/D/Dropbox/TSRand/build/style.min.css",
-		"/D/Dropbox/TSRand/src/js/conditions.js",
 		"/D/Dropbox/TSRand/src/html/body.html",
-		"/D/Dropbox/TSRand/build-aeg/index.html",
+		"/D/Dropbox/TSRand/src/css/style.css",
+		"/C/Users/Ian/Downloads/save_DS_Fr.txt",
+		"/D/Dropbox/TSRand/src/js/init.js",
+		"/D/Dropbox/TSRand/src/js/functions.js",
 		"/D/Dropbox/TSRand/build.xml",
+		"/C/Users/itoltz/Documents/Clients/NBTY/2012-12-21 Puritan Checkout/boxes.html",
+		"/D/Dropbox/TSRand/build-aeg.zip",
+		"/D/Dropbox/TSRand/src/js/conditions.js",
+		"/D/Dropbox/TSRand/src/js/strings.js",
+		"/D/Dropbox/TSRand/src/js/monstercards.js",
+		"/D/Dropbox/TSRand/src/js/misccards.js",
+		"/D/Dropbox/TSRand/src/js/execute.js",
+		"/D/Dropbox/TSRand/src/js/objects.js",
+		"/D/Dropbox/TSRand/build-aeg/manifest.mf",
+		"/D/Dropbox/TSRand/src/html/header-prod.html",
+		"/D/Dropbox/TSRand/gitpush.bat",
+		"/D/Dropbox/TSRand/src/resources/manifest.mf",
+		"/D/Dropbox/TSRand/build/dev/scripts/init.js",
+		"/D/Dropbox/TSRand/build/style.min.css",
+		"/D/Dropbox/TSRand/build-aeg/index.html",
 		"/D/Dropbox/TSRand/tsrand.sublime-project",
 		"/D/Dropbox/Small World/content.js",
 		"/D/Dropbox/Small World/everything.txt",
@@ -348,6 +326,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -355,6 +334,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			":",
+			":(?! )",
+			"//",
+			",",
+			"==",
+			".containerH",
+			"ffd",
+			"level",
+			"console.log",
+			"cards",
+			"]",
+			"cards",
+			"(^\\t[^:/]*)[^\\w:/]",
+			"^\\t[^:]*[",
+			" \\* ",
+			"-",
 			"rapp",
 			" =",
 			"thorn",
@@ -466,13 +461,7 @@
 			"sc\\d",
 			"diablo\\d",
 			"starcraft",
-			"img: \\d",
-			"img: 5",
-			"img: \\d",
-			"tech",
-			"en(\"Cal",
-			"Calculator",
-			"^aliens.push[^\"]*\"([^\"]*)\".*?$"
+			"img: \\d"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -480,6 +469,10 @@
 		"regex": true,
 		"replace_history":
 		[
+			": ",
+			"\\1_",
+			"_",
+			"*",
 			":",
 			"\\1",
 			"_",
@@ -531,169 +524,24 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "build-aeg/manifest.mf",
-					"settings":
-					{
-						"buffer_size": 320,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "build.xml",
-					"settings":
-					{
-						"buffer_size": 4399,
-						"regions":
-						{
-							"bookmarks":
-							{
-								"flags": 144,
-								"icon": "bookmark",
-								"regions":
-								[
-									[
-										4067,
-										4067
-									]
-								],
-								"scope": "bookmarks"
-							}
-						},
-						"selection":
-						[
-							[
-								3229,
-								3229
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1080.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/html/header-prod.html",
-					"settings":
-					{
-						"buffer_size": 605,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								577,
-								584
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/html/body.html",
-					"settings":
-					{
-						"buffer_size": 3970,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								111,
-								111
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/js/misccards.js",
-					"settings":
-					{
-						"buffer_size": 5150,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3271,
-								3271
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1893.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "src/js/strings.js",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 25138,
+						"buffer_size": 25460,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9467,
-								9467
+								5716,
+								5678
 							]
 						],
 						"settings":
@@ -702,37 +550,16 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4986.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "gitpush.bat",
-					"settings":
-					{
-						"buffer_size": 52,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								52,
-								52
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Batch File/Batch File.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3420.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -753,11 +580,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -767,6 +601,7 @@
 		]
 	},
 	"menu_visible": true,
+	"project": "/D/Dropbox/TSRand/tsrand.sublime-project",
 	"replace":
 	{
 		"height": 62.0
@@ -800,10 +635,44 @@
 		],
 		"width": 380.0
 	},
+	"select_symbol":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"resi",
+				"resize"
+			],
+			[
+				"togglP",
+				"togglePreview"
+			],
+			[
+				"setPreview",
+				"setPreview"
+			],
+			[
+				"add",
+				"addToDeck"
+			],
+			[
+				"icon",
+				"icon.add"
+			]
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 172.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
