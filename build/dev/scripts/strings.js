@@ -1,3 +1,5 @@
+// Useful for finding characters that need to be encoded: [^-&;*=a-zA-Z:/\s,"_0-9.{}\\']
+
 var LANG = {};
 LANG.us = {
 	//Village
@@ -688,6 +690,153 @@ LANG.de = {
 	Spider_Animal: "Spinne * Tier",
 	Undead_Spectral: "Untoter * Gespenstisch",
 
+	//===Towers of Ruin===
+	Towers_of_Ruin: "Die T&uuml;rme des Verderbens",
+
+	//Heroes
+	Aird: "Airdaner",
+	Bhoidwood: "Bhoidwood",
+	Caliginite: "Caliginer",
+	Criochan: "Criochaner",
+	Deepstrider: "Dunkellauf",
+	Drua: "Druaner",
+	Glamercast: "Glamercast",
+	Sternnkin: "Sternnsippe",
+	Thundermage: "Donnermagier",
+	Veilminder: "Schleierw&auml;chter",
+	Whetmage: "Wassermagier",
+
+	//Monsters
+	Burnmarked_Fire: "Gebranntmarkter * Feuer",
+	Corvaxis_Avian: "Corvaxis * Vogelartig",
+	Djinni_Efreet: "Dschinn * Efreet",
+	Dragon_Fire: "Drache * Feuer",
+	Kobold_Humanoid: "Kobold * Humanoid",
+	Ogre_Humanoid: "Oger * Humanoid",
+	Undead_Horde: "Untoter * Horde",
+	Undead_Skeleton: "Untoter * Skelett",
+	Undead_Treefolk: "Untoter * Baumvolk",
+
+	//Village
+	Bandia_s_Wisdom: "Bandias Weisheit",
+	Battle_scarred_Soldier: "Kampferprobter Soldat",
+	Bounty_Hunter: "Kopfgeldj&auml;gerin",
+	Dancing_Sword: "Tanzendes Schwert",
+	Dwarven_Bear_Hammer: "Zwergen-B&auml;renhammer",
+	Falcon_Arbalest: "Falken-Armbrust",
+	Filigree_Amulet: "Filigranes Amulett",
+	Innkeeper: "Gastwirt",
+	King_Caelan_s_Writ: "K&ouml;nig Caelans Erlass",
+	Longsword: "Langschwert",
+	Mass_Teleport: "Massenteleportation",
+	Moonstone: "Mondstein",
+	Pike: "Pike",
+	Ranger_s_Wilderness_Map: "Ranger-Wildniskarte",
+	Royal_Summons: "K&ouml;niglicher Aufruf",
+	Snakehead_Flail: "Schlangenflegel",
+	Smuggler: "Schmuggler",
+	Summon_Storm: "Sturmbeschw&ouml;rung",
+	Veteran_Trainer: "Erfahrener Ausbilder",
+
+	//Misc
+	Belac: "Belac",
+	Orseg: "Orseg",
+	Stramst: "Stramst",
+	Dungeon: "Dungeon",
+	Wilderness: "Wildnis",
+	Curses: "Fluch",
+
+	//===Caverns of Bane===
+	Caverns_of_Bane: "Verfluchte H&ouml;hlen",
+
+	//Heroes
+	Disowned: "Verleugnete",
+	Forcemage: "Kraftmagier",
+	Patternmage: "Strukturmagier",
+	Rapparee: "Rapparee",
+	Skinshifter: "Hautwandler",
+	Spellsword: "Zauberschwerter",
+	Tuath: "Tuather",
+
+	//Village
+	Animal_Talisman: "Talisman des Tieres",
+	Bloodhound: "Bluthund",
+	Castellan: "Kastellan",
+	Charm_of_Venery: "Amulett der Jagd",
+	Dwarven_Ale: "Zwergenbier",
+	Force_Blast: "Druckwelle der Macht",
+	Historian: "Geschichtsschreiber",
+	Liveoak_Staff: "Stab der Lebenseiche",
+	Owl_Eyes: "Eulenaugen",
+	Reckless_Conjure: "R&uuml;cksichtslose Beschw&ouml;rung",
+	Seedbomb: "Saatbombe",
+	Taproot_Blade: "Pfahlwurzelklinge",
+	Thorn_Caltrops: "Dornige Erdsterne",
+
+	//Monster
+	Chiroptid_Humanoid: "Fledermaus * Humanoid",
+	Doomknight_Undead: "Ritter der Verdamnis * Untoter",
+	Elemental_Salamander: "Elementar * Salamander",
+	Ooze_Cavern: "Schleim * H&ouml;hle",
+	Troll_Humanoid: "Troll * Humanoid",
+	Worm_Vermin: "Wurm * Ungeziefer",
+
+	//Thunderstone Bearer
+	Goron_Singlemind: "Goron der Zielstrebige",
+	Mowtil_Djinni_Lich: "Mowtil, Dschinnleiche",
+	Xobmokt_Ichor_King: "Xobmokt, K&ouml;nig des G&ouml;tterbluts",
+
+	//Other
+	Treasures_of_Caligin: "Sch&auml;tze aus Caligin",
+
+	//===Root of Corruption===
+	Root_of_Corruption: "Ursprung alles B&ouml;sen",
+
+	//Heroes
+
+	Armsman: "Soldaten",
+	Blademage: "Klingenmagier",
+	Honormain: "Ehrengarde",
+	Moonclaw: "Mondklauen",
+	Profaned: "Entweihte",
+	Silvertongue: "Silberzungen",
+	Woodguard: "Baumwachen",
+
+	//Monsters
+
+	Djinnbound_Corrupted: "Besessener * Verdorben",
+	Elemental_Earth: "Elementar * Erde",
+	Gnoll_Humanoid: "Gnoll * Humanoid",
+	Incarnate_Abyssal: "Leibhaftiger * Tiefenwesen",
+	Royal_Guard_Corrupted: "K&ouml;nigliche Garde * Bestechlich",
+	Summon_Old_World: "Beschw&ouml;rer * Alte Welt",
+
+	//Guardian
+	Archdruid: "&Auml;ltester Druide",
+
+	//Thunderstone Bearer
+	King_Caelan: "K&ouml;nig Caelan",
+
+	//Village
+	Blood_Debt: "Blutschuld",
+	Circle_of_Protection: "Schutzkreis",
+	Cursed_Dagger: "Verfluchter Dolch",
+	Debased_Wizard: "Verdorbene Zauberin",
+	Elven_Waybread: "Elfisches Wegebrot",
+	Greatsword: "Grossschwert",
+	Hedge_Witch: "Erfahrene Hexe",
+	Hysterical_Villager: "Hysterischer Dorfbewohner",
+	Labrys: "Labrys",
+	Liveoak_Bow: "Bogen der Lebenseiche",
+	Maul: "Schl&auml;gel",
+	Mind_Control: "Gedankenkontrolle",
+	Rage_of_the_Disowned: "Wut der Verleugneten",
+	Stablehand: "Stallbursche",
+	Tincture_of_Victims: "Opfer-Tinktur",
+
+	//Treasure
+	Treasures_of_Dun_Ordha: "Sch&auml;tze von Dun Ordha",
+
 	//Other
 	Gem_Treasure: "Schatz * Edelstein",
 	Heart_of_Doom: "Herz der Verdammnis",
@@ -713,7 +862,9 @@ LANG.de = {
 	Yes: "immer",
 	No: "nie",
 	Maybe: "zuf&auml;llig",
-	If_Required: "bei Bedarf"
+	If_Required: "bei Bedarf",
+
+	"":""
 };
 
 LANG.fr = {

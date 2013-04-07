@@ -207,7 +207,15 @@
 			"file": "src/js/strings.js",
 			"settings":
 			{
-				"buffer_size": 25460,
+				"buffer_size": 26488,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build/dev/index.html",
+			"settings":
+			{
+				"buffer_size": 5354,
 				"line_ending": "Windows"
 			}
 		}
@@ -267,6 +275,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Ian/Downloads/mystify1.reg",
+		"/D/Dropbox/TSRand/thunderstone advance strings.txt",
 		"/D/Temp/thornwood siege strings",
 		"/D/Dropbox/TSRand/src/js/herocards.js",
 		"/D/Dropbox/TSRand/src/js/villagecards.js",
@@ -334,6 +344,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"uml",
+			"'(?<!\\\\')",
+			"'(?!<\\\\')",
+			"[^- :a-zA-Z,\"\\n\\t_&;*'/}{=.\\d]",
+			"umlaut",
+			"è",
+			"ï",
+			"é",
+			"(=+)",
 			":",
 			":(?! )",
 			"//",
@@ -452,16 +471,7 @@
 			"achievements.len",
 			"function game",
 			"game",
-			"diablo",
-			"achIcon",
-			"achi",
-			"\"(?:diablo|sc)(\\d+)sm.jpg\"",
-			"(?:diablo|sc)(\\d+)sm.jpg",
-			"(?:sc|diablo)(\\d+)(sm.jpg)",
-			"sc\\d",
-			"diablo\\d",
-			"starcraft",
-			"img: \\d"
+			"diablo"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -469,6 +479,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"$1=",
 			": ",
 			"\\1_",
 			"_",
@@ -533,15 +544,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 25460,
+						"buffer_size": 26488,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5716,
-								5678
+								6900,
+								10675
 							]
 						],
 						"settings":
@@ -550,16 +561,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3420.0,
+						"translation.y": 7399.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "build/dev/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
@@ -580,18 +614,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
