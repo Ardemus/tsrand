@@ -1,4 +1,4 @@
-// Useful for finding characters that need to be encoded: [^-&;*=a-zA-Z:/\s,"_0-9.{}\\']
+// Useful for finding characters that need to be encoded: [^-&;&bull;=a-zA-Z:/\s,"_0-9.{}\\']
 
 var LANG = {};
 LANG.us = {
@@ -84,36 +84,36 @@ LANG.us = {
 
 	//Monster
 	Abyssal: "Abyssal",
-	Abyssal_Malformed: "Abyssal * Malformed",
-	Abyssal_Thunderspawn: "Abyssal * Thunderspawn",
-	Bandit_Humanoid: "Bandit * Humanoid",
+	Abyssal_Malformed: "Abyssal &bull; Malformed",
+	Abyssal_Thunderspawn: "Abyssal &bull; Thunderspawn",
+	Bandit_Humanoid: "Bandit &bull; Humanoid",
 	Centaur: "Centaur",
-	Cultist_Humanoid: "Cultist * Humanoid",
+	Cultist_Humanoid: "Cultist &bull; Humanoid",
 	Dark_Enchanted: "Dark Enchanted",
-	Doomknight_Humanoid: "Doomknight * Humanoid",
+	Doomknight_Humanoid: "Doomknight &bull; Humanoid",
 	Dragon: "Dragon",
-	Dragon_Humanoid: "Dragon * Humanoid",
-	Elemental_Fire: "Elemental * Fire",
-	Elemental_Nature: "Elemental * Nature",
-	Elemental_Pain: "Elemental * Pain",
+	Dragon_Humanoid: "Dragon &bull; Humanoid",
+	Elemental_Fire: "Elemental &bull; Fire",
+	Elemental_Nature: "Elemental &bull; Nature",
+	Elemental_Pain: "Elemental &bull; Pain",
 	Enchanted: "Enchanted",
-	Evil_Druid_Humanoid: "Evil Druid * Humanoid",
+	Evil_Druid_Humanoid: "Evil Druid &bull; Humanoid",
 	Giant: "Giant",
 	Golem: "Golem",
 	Horde: "Horde",
 	Humanoid: "Humanoid",
-	Hydra_Dragon: "Hydra * Dragon",
+	Hydra_Dragon: "Hydra &bull; Dragon",
 	Ooze: "Ooze",
-	Orc_Humanoid: "Orc * Humanoid",
-	Raider_Humanoid: "Raider * Humanoid",
+	Orc_Humanoid: "Orc &bull; Humanoid",
+	Raider_Humanoid: "Raider &bull; Humanoid",
 	Siege: "Siege",
 	The_Swarm: "The Swarm",
-	Undead_Doom: "Undead * Doom",
-	Undead_Lich: "Undead * Lich",
-	Undead_Plague: "Undead * Plague",
-	Undead_Spirit: "Undead * Spirit",
-	Undead_Stormwraith: "Undead * Stormwraith",
-	Verminfolk_Animal: "Verminfolk * Animal",
+	Undead_Doom: "Undead &bull; Doom",
+	Undead_Lich: "Undead &bull; Lich",
+	Undead_Plague: "Undead &bull; Plague",
+	Undead_Spirit: "Undead &bull; Spirit",
+	Undead_Stormwraith: "Undead &bull; Stormwraith",
+	Verminfolk_Animal: "Verminfolk &bull; Animal",
 	Werewolf: "Werewolf",
 
 	//Thunderstones
@@ -125,9 +125,9 @@ LANG.us = {
 	Stone_of_Terror: "Stone of Terror",
 
 	//Traps
-	Trap_Death: "Trap * Death",
-	Trap_Dire: "Trap * Dire",
-	Trap_Draconic: "Trap * Draconic",
+	Trap_Death: "Trap &bull; Death",
+	Trap_Dire: "Trap &bull; Dire",
+	Trap_Draconic: "Trap &bull; Draconic",
 
 	//Guardians
 	Dark_Champion: "Dark Champion",
@@ -247,13 +247,13 @@ LANG.us = {
 	War_Hero: "War Hero",
 
 	//Monsters
-	Abyssal_Darkspawn: "Abyssal * Darkspawn",
-	Basilisk_Animal: "Basilisk * Animal",
-	Doppelganger_Humanoid: "Doppelganger * Humanoid",
+	Abyssal_Darkspawn: "Abyssal &bull; Darkspawn",
+	Basilisk_Animal: "Basilisk &bull; Animal",
+	Doppelganger_Humanoid: "Doppelganger &bull; Humanoid",
 	Dryad: "Dryad",
-	Lizardfolk_Humanoid: "Lizardfolk * Humanoid",
-	Spider_Animal: "Spider * Animal",
-	Undead_Spectral: "Undead * Spectral",
+	Lizardfolk_Humanoid: "Lizardfolk &bull; Humanoid",
+	Spider_Animal: "Spider &bull; Animal",
+	Undead_Spectral: "Undead &bull; Spectral",
 
 	//Other
 	Gem_Treasure: "Gem Treasure",
@@ -281,15 +281,15 @@ LANG.us = {
 	Whetmage: "Whetmage",
 
 	//Monsters
-	Burnmarked_Fire: "Burnmarked * Fire",
-	Corvaxis_Avian: "Corvaxis * Avian",
-	Djinni_Efreet: "Djinni * Efreet",
-	Dragon_Fire: "Dragon * Fire",
-	Kobold_Humanoid: "Kobold * Humanoid",
-	Ogre_Humanoid: "Ogre * Humanoid",
-	Undead_Horde: "Undead * Horde",
-	Undead_Skeleton: "Undead * Skeleton",
-	Undead_Treefolk: "Undead * Treefolk",
+	Burnmarked_Fire: "Burnmarked &bull; Fire",
+	Corvaxis_Avian: "Corvaxis &bull; Avian",
+	Djinni_Efreet: "Djinni &bull; Efreet",
+	Dragon_Fire: "Dragon &bull; Fire",
+	Kobold_Humanoid: "Kobold &bull; Humanoid",
+	Ogre_Humanoid: "Ogre &bull; Humanoid",
+	Undead_Horde: "Undead &bull; Horde",
+	Undead_Skeleton: "Undead &bull; Skeleton",
+	Undead_Treefolk: "Undead &bull; Treefolk",
 
 	//Village
 	Bandia_s_Wisdom: "Bandia\'s Wisdom",
@@ -348,12 +348,12 @@ LANG.us = {
 	Thorn_Caltrops: "Thorn Caltrops",
 
 	//Monster
-	Chiroptid_Humanoid: "Chiroptid * Humanoid",
-	Doomknight_Undead: "Doomknight * Undead",
-	Elemental_Salamander: "Elemental * Salamander",
-	Ooze_Cavern: "Ooze * Cavern",
-	Troll_Humanoid: "Troll * Humanoid",
-	Worm_Vermin: "Worm * Vermin",
+	Chiroptid_Humanoid: "Chiroptid &bull; Humanoid",
+	Doomknight_Undead: "Doomknight &bull; Undead",
+	Elemental_Salamander: "Elemental &bull; Salamander",
+	Ooze_Cavern: "Ooze &bull; Cavern",
+	Troll_Humanoid: "Troll &bull; Humanoid",
+	Worm_Vermin: "Worm &bull; Vermin",
 
 	//Thunderstone Bearer
 	Goron_Singlemind: "Goron Singlemind",
@@ -378,12 +378,12 @@ LANG.us = {
 
 	//Monsters
 
-	Djinnbound_Corrupted: "Djinnbound * Corrupted",
-	Elemental_Earth: "Elemental * Earth",
-	Gnoll_Humanoid: "Gnoll * Humanoid",
-	Incarnate_Abyssal: "Incarnate * Abyssal",
-	Royal_Guard_Corrupted: "Royal Guard * Corrupted",
-	Summon_Old_World: "Summon * Old World",
+	Djinnbound_Corrupted: "Djinnbound &bull; Corrupted",
+	Elemental_Earth: "Elemental &bull; Earth",
+	Gnoll_Humanoid: "Gnoll &bull; Humanoid",
+	Incarnate_Abyssal: "Incarnate &bull; Abyssal",
+	Royal_Guard_Corrupted: "Royal Guard &bull; Corrupted",
+	Summon_Old_World: "Summon &bull; Old World",
 
 	//Guardian
 	Archdruid: "Archdruid",
@@ -411,6 +411,103 @@ LANG.us = {
 	//Treasure
 	Treasures_of_Dun_Ordha: "Treasures of Dun Ordha",
 
+    //===Starter Set===
+    Starter_Set: "Starter Set",
+
+    //Heroes
+    Blackhand: "Blackhand",
+    Cathedral: "Cathedral",
+    Garrison: "Garrison",
+    Tower: "Tower",
+    Wildwood: "Wildwood",
+
+    //Village
+    Curative_Draught: "Curative Draught",
+    Radiant_Orb: "Radiant Orb",
+    Insight: "Insight",
+    Rolling_Sparks: "Rolling Sparks",
+    Summon_Aid: "Summon Aid",
+    Novice_Mage: "Novice Mage",
+    Opportunist: "Opportunist",
+    Bardiche: "Bardiche",
+    Champion_Sword: "Champion Sword",
+    Runed_Hammer: "Runed Hammer",
+
+    //Monster
+    Bestial_Humanoid: "Bestial &bull; Humanoid",
+    Virulent_Undead: "Virulent &bull; Undead",
+    Behemoth_Giant: "Behemoth &bull; Giant",
+
+    //Thunderstone Bearer
+    Wraithlyn_Dragon_General: "Wraithlyn, Dragon General",
+
+	//Diseases
+	Diseases: "Diseases",
+
+	//===Numenera===
+	Numenera: "Numenera",
+
+	//Heroes
+	Aeon: "Aeon",
+	Charming: "Charming",
+	Clever: "Clever",
+	Graceful: "Graceful",
+	Intelligent: "Intelligent",
+	Learned: "Learned",
+	Mystic: "Mystic",
+	Rugged: "Rugged",
+	Stealthy: "Stealthy",
+	Strong: "Strong",
+	Strong_Willed: "Strong-Willed",
+	Swift: "Swift",
+	Tough: "Tough",
+
+	//Village
+	Backpack: "Backpack",
+	Bio_Energy_Cutter: "Bio-Energy Cutter",
+	Bio_Salvager: "Bio-Salvager",
+	Chemical_Injector: "Chemical Injector",
+	Dart_Thrower: "Dart Thrower",
+	Disruption_Blade: "Disruption Blade",
+	Fearemaker: "Fearmaker",
+	Mental_Scrambler: "Mental Scrambler",
+	Nevajin: "Nevajin",
+	Paired_Swords: "Paired Swords",
+	Partisan: "Partisan",
+	Phase_Disruptor: "Phase Disruptor",
+	Punch_Dagger: "Punch Dagger",
+	Ray_Emitter: "Ray Emitter",
+	Retaliation_Nodule: "RetaliationNodule",
+	Shield_Bearer: "Shield Bearer",
+	Shock_Nodule: "Shock Nodule",
+	Unstable_Crytals: "Unstable Crystals",
+	Village_Headman: "Village Headman",
+	Village_Jack: "Village Jack",
+	Warder: "Warder",
+
+	//Monster
+	Abhuman: "Abhuman",
+	Beasts: "Beasts",
+	Verminous: "Verminous",
+	Automatons: "Automatons",
+	Bandit_Raider: "Bandit &bull; Raider",
+	Infected: "Infected",
+	Ultraterrestrial: "Ultraterrestrial",
+	Ancient_Ones: "Ancient Ones",
+	Horrors: "Horrors",
+	Monstrosity: "Monstrosity",
+
+	//Treasure
+	Treasures_of_Numenera: "Treasures of Numenera",
+
+	//Thunderstone Bearer
+	Convergence_Master: "Convergence Master",
+	Sarrak: "Sarrak",
+	Phylethis: "Phylethis",
+
+	//Diseases
+	Iron_Wind: "Iron Wind",
+
 
 	//UI
 	Allowed: "Allowed",
@@ -426,12 +523,14 @@ LANG.us = {
 	Randomize: "Randomize",
 	Required: "Required",
 	Set: "Set",
+	Sets: "Sets",
 	ShowCode: "Display Set Codes",
 	Show_Debug_Information: "Show Debug Information",
 	Solo_Game: "Solo Game",
 	Special: "Special",
 	Special_Diseases: "Special Diseases",
 	Standard: "Standard",
+	Thunderstone_Advance: "Thunderstone Advance",
 	Use_Special_Diseases: "Use Special Diseases",
 	VillageLimits: "Village Type Limits",
 	Yes: "Yes"
@@ -520,36 +619,36 @@ LANG.de = {
 
 	//Monster
 	Abyssal: "Tiefenwesen",
-	Abyssal_Malformed: "Tiefenwesen * Missgestaltet",
-	Abyssal_Thunderspawn: "Tiefenwesen * Sturmgespenst",
-	Bandit_Humanoid: "R&auml;uber * Humanoid",
+	Abyssal_Malformed: "Tiefenwesen &bull; Missgestaltet",
+	Abyssal_Thunderspawn: "Tiefenwesen &bull; Sturmgespenst",
+	Bandit_Humanoid: "R&auml;uber &bull; Humanoid",
 	Centaur: "Zentaur",
-	Cultist_Humanoid: "Kultist * Humanoid",
+	Cultist_Humanoid: "Kultist &bull; Humanoid",
 	Dark_Enchanted: "Dunkles Zauberwesen",
-	Doomknight_Humanoid: "Ritter der Verdammnis * Humanoid",
+	Doomknight_Humanoid: "Ritter der Verdammnis &bull; Humanoid",
 	Dragon: "Drache",
-	Dragon_Humanoid: "Drache * Humanoid",
-	Elemental_Fire: "Elementar * Feuer",
-	Elemental_Nature: "Elementar * Natur",
-	Elemental_Pain: "Elementar * Qual",
+	Dragon_Humanoid: "Drache &bull; Humanoid",
+	Elemental_Fire: "Elementar &bull; Feuer",
+	Elemental_Nature: "Elementar &bull; Natur",
+	Elemental_Pain: "Elementar &bull; Qual",
 	Enchanted: "Zauberwesen",
-	Evil_Druid_Humanoid: "Teuflischer Druide * Humanoid",
+	Evil_Druid_Humanoid: "Teuflischer Druide &bull; Humanoid",
 	Giant: "Riese",
 	//Golem: "Golem",
 	Horde: "Horde",
 	Humanoid: "Humanoid",
-	Hydra_Dragon: "Hydra * Drache",
+	Hydra_Dragon: "Hydra &bull; Drache",
 	Ooze: "Schleim",
-	Orc_Humanoid: "Ork * Humanoid",
+	Orc_Humanoid: "Ork &bull; Humanoid",
 	Raider_Humanoid: "Pl&uuml;nderer, Humanoid",
 	Siege: "Belagerung",
-	The_Swarm: "Der Schwarm * Tier",
-	Undead_Doom: "Untoter * Verdammter",
-	Undead_Lich: "Untoter * Leiche",
-	Undead_Plague: "Untoter * Verseucht",
-	Undead_Spirit: "Untoter * Geist",
-	Undead_Stormwraith: "Untoter * Sturmgespenst",
-	Verminfolk_Animal: "Sch&auml;dlingsvolk * Tier",
+	The_Swarm: "Der Schwarm &bull; Tier",
+	Undead_Doom: "Untoter &bull; Verdammter",
+	Undead_Lich: "Untoter &bull; Leiche",
+	Undead_Plague: "Untoter &bull; Verseucht",
+	Undead_Spirit: "Untoter &bull; Geist",
+	Undead_Stormwraith: "Untoter &bull; Sturmgespenst",
+	Verminfolk_Animal: "Sch&auml;dlingsvolk &bull; Tier",
 	Werewolf: "Werwolf",
 
 	//Thunderstones
@@ -561,9 +660,9 @@ LANG.de = {
 	Stone_of_Terror: "Stein des Terrors",
 
 	//Traps
-	Trap_Death: "Falle * t&ouml;dlich",
-	Trap_Dire: "Falle * grausam",
-	Trap_Draconic: "Falle * drakonisch",
+	Trap_Death: "Falle &bull; t&ouml;dlich",
+	Trap_Dire: "Falle &bull; grausam",
+	Trap_Draconic: "Falle &bull; drakonisch",
 
 	//Guardians
 	Dark_Champion: "Dunkler Meister",
@@ -576,8 +675,8 @@ LANG.de = {
 	Unholy_Guardian: "Unheiliger W&auml;chter",
 
 	//Treasures
-	Amulet_Treasure: "Amulett * Schatz",
-	Figurine_Treasure: "Figur * Schatz",
+	Amulet_Treasure: "Amulett &bull; Schatz",
+	Figurine_Treasure: "Figur &bull; Schatz",
 	Ulbrick_s_Treasure: "Ulbricks Schatz",
 
 	//Settings
@@ -682,13 +781,13 @@ LANG.de = {
 	War_Hero: "Kriegsheld",
 
 	//Monsters
-	Abyssal_Darkspawn: "Tiefenwesen * D&uuml;stere Brut",
-	Basilisk_Animal: "Basilisk * Tier",
-	Doppelganger_Humanoid: "Doppelg&auml;nger * Humanoid",
+	Abyssal_Darkspawn: "Tiefenwesen &bull; D&uuml;stere Brut",
+	Basilisk_Animal: "Basilisk &bull; Tier",
+	Doppelganger_Humanoid: "Doppelg&auml;nger &bull; Humanoid",
 	Dryad: "Baumgeist",
-	Lizardfolk_Humanoid: "Echsenvolk * Humanoid",
-	Spider_Animal: "Spinne * Tier",
-	Undead_Spectral: "Untoter * Gespenstisch",
+	Lizardfolk_Humanoid: "Echsenvolk &bull; Humanoid",
+	Spider_Animal: "Spinne &bull; Tier",
+	Undead_Spectral: "Untoter &bull; Gespenstisch",
 
 	//===Towers of Ruin===
 	Towers_of_Ruin: "Die T&uuml;rme des Verderbens",
@@ -707,15 +806,15 @@ LANG.de = {
 	Whetmage: "Wassermagier",
 
 	//Monsters
-	Burnmarked_Fire: "Gebranntmarkter * Feuer",
-	Corvaxis_Avian: "Corvaxis * Vogelartig",
-	Djinni_Efreet: "Dschinn * Efreet",
-	Dragon_Fire: "Drache * Feuer",
-	Kobold_Humanoid: "Kobold * Humanoid",
-	Ogre_Humanoid: "Oger * Humanoid",
-	Undead_Horde: "Untoter * Horde",
-	Undead_Skeleton: "Untoter * Skelett",
-	Undead_Treefolk: "Untoter * Baumvolk",
+	Burnmarked_Fire: "Gebranntmarkter &bull; Feuer",
+	Corvaxis_Avian: "Corvaxis &bull; Vogelartig",
+	Djinni_Efreet: "Dschinn &bull; Efreet",
+	Dragon_Fire: "Drache &bull; Feuer",
+	Kobold_Humanoid: "Kobold &bull; Humanoid",
+	Ogre_Humanoid: "Oger &bull; Humanoid",
+	Undead_Horde: "Untoter &bull; Horde",
+	Undead_Skeleton: "Untoter &bull; Skelett",
+	Undead_Treefolk: "Untoter &bull; Baumvolk",
 
 	//Village
 	Bandia_s_Wisdom: "Bandias Weisheit",
@@ -774,12 +873,12 @@ LANG.de = {
 	Thorn_Caltrops: "Dornige Erdsterne",
 
 	//Monster
-	Chiroptid_Humanoid: "Fledermaus * Humanoid",
-	Doomknight_Undead: "Ritter der Verdamnis * Untoter",
-	Elemental_Salamander: "Elementar * Salamander",
-	Ooze_Cavern: "Schleim * H&ouml;hle",
-	Troll_Humanoid: "Troll * Humanoid",
-	Worm_Vermin: "Wurm * Ungeziefer",
+	Chiroptid_Humanoid: "Fledermaus &bull; Humanoid",
+	Doomknight_Undead: "Ritter der Verdamnis &bull; Untoter",
+	Elemental_Salamander: "Elementar &bull; Salamander",
+	Ooze_Cavern: "Schleim &bull; H&ouml;hle",
+	Troll_Humanoid: "Troll &bull; Humanoid",
+	Worm_Vermin: "Wurm &bull; Ungeziefer",
 
 	//Thunderstone Bearer
 	Goron_Singlemind: "Goron der Zielstrebige",
@@ -804,12 +903,12 @@ LANG.de = {
 
 	//Monsters
 
-	Djinnbound_Corrupted: "Besessener * Verdorben",
-	Elemental_Earth: "Elementar * Erde",
-	Gnoll_Humanoid: "Gnoll * Humanoid",
-	Incarnate_Abyssal: "Leibhaftiger * Tiefenwesen",
-	Royal_Guard_Corrupted: "K&ouml;nigliche Garde * Bestechlich",
-	Summon_Old_World: "Beschw&ouml;rer * Alte Welt",
+	Djinnbound_Corrupted: "Besessener &bull; Verdorben",
+	Elemental_Earth: "Elementar &bull; Erde",
+	Gnoll_Humanoid: "Gnoll &bull; Humanoid",
+	Incarnate_Abyssal: "Leibhaftiger &bull; Tiefenwesen",
+	Royal_Guard_Corrupted: "K&ouml;nigliche Garde &bull; Bestechlich",
+	Summon_Old_World: "Beschw&ouml;rer &bull; Alte Welt",
 
 	//Guardian
 	Archdruid: "&Auml;ltester Druide",
@@ -838,7 +937,7 @@ LANG.de = {
 	Treasures_of_Dun_Ordha: "Sch&auml;tze von Dun Ordha",
 
 	//Other
-	Gem_Treasure: "Schatz * Edelstein",
+	Gem_Treasure: "Schatz &bull; Edelstein",
 	Heart_of_Doom: "Herz der Verdammnis",
 	Last_Refuge: "Letzte Zuflucht",
 	Mournwater_Swamp: "Sumpf am Trauersee",
@@ -918,23 +1017,23 @@ LANG.fr = {
 
 	//Monster
 	Abyssal: "Abyssal",
-	Abyssal_Thunderspawn: "Abyssal * Rejeton Tonnerre",
-	Cultist_Humanoid: "Cultiste * Humano&iuml;de",
-	Doomknight_Humanoid: "Chevalier Maudit * Humano&iuml;de",
+	Abyssal_Thunderspawn: "Abyssal &bull; Rejeton Tonnerre",
+	Cultist_Humanoid: "Cultiste &bull; Humano&iuml;de",
+	Doomknight_Humanoid: "Chevalier Maudit &bull; Humano&iuml;de",
 	Dragon: "Dragon",
-	Dragon_Humanoid: "Dragon * Humano&iuml;d",
-	Elemental_Nature: "El&eacute;mentaire * Nature",
-	Elemental_Pain: "El&eacute;mentaire * Douleur",
+	Dragon_Humanoid: "Dragon &bull; Humano&iuml;d",
+	Elemental_Nature: "El&eacute;mentaire &bull; Nature",
+	Elemental_Pain: "El&eacute;mentaire &bull; Douleur",
 	Enchanted: "Enchant&eacute;",
-	Evil_Druid_Humanoid: "Druide Mal&eacute;fique * Humano&iuml;de",
+	Evil_Druid_Humanoid: "Druide Mal&eacute;fique &bull; Humano&iuml;de",
 	Golem: "Golem",
 	Horde: "Horde",
 	Humanoid: "Humano&iuml;de",
 	Ooze: "Visqueux",
 	The_Swarm: "L\'Essaim",
-	Undead_Doom: "Mort-vivant * Maudit",
-	Undead_Spirit: "Mort-vivant * Esprit",
-	Undead_Stormwraith: "Mort-vivant * Spectre temp&ecirc;te",
+	Undead_Doom: "Mort-vivant &bull; Maudit",
+	Undead_Spirit: "Mort-vivant &bull; Esprit",
+	Undead_Stormwraith: "Mort-vivant &bull; Spectre temp&ecirc;te",
 	Werewolf: "Loup-Garou",
 
 	//Thunderstones
@@ -943,8 +1042,8 @@ LANG.fr = {
 	Stone_of_Mystery: "Pierre Myst&egrave;re",
 
 	//Traps
-	Trap_Death: "Pi&egrave;ge * Mortel",
-	Trap_Dire: "Pi&egrave;ge * Sinistre",
+	Trap_Death: "Pi&egrave;ge &bull; Mortel",
+	Trap_Dire: "Pi&egrave;ge &bull; Sinistre",
 
 	//Guardians
 	Dark_Champion: "Sombre Champion",
@@ -1026,7 +1125,7 @@ LANG.fr = {
 	Thornwood_Forest: "For&ecirc;t de Thornwood",
 
 	//Dragonspire cards
-	Bandit_Humanoid: "Bandit * Humano&iuml;d",
+	Bandit_Humanoid: "Bandit &bull; Humano&iuml;d",
 	Barrowsdale: "Barrowsdale",
 	Belzur: "Belzur",
 	Bluefire_Staff: "B&acirc;ton Feubleu",
@@ -1038,10 +1137,10 @@ LANG.fr = {
 	Doomgate: "Doomgate",
 	Dragonspire: "Pic du Dragon",
 	Dreadwatch: "Dreadwatch",
-	Elemental_Fire: "El&eacute;mentaire * Feu",
+	Elemental_Fire: "El&eacute;mentaire &bull; Feu",
 	Evoker: "Evocateur",
 	Feayn_Swamp: "Marais Feayn",
-	Figurine_Treasure: "Statuette * Tr&eacute;sor",
+	Figurine_Treasure: "Statuette &bull; Tr&eacute;sor",
 	Flame: "Flamme",
 	Frost_Bolt: "Eclair de Givre",
 	Frost_Giant_Axe: "H&acirc;che de G&eacute;ant du Froid",
@@ -1053,8 +1152,8 @@ LANG.fr = {
 	Guardian_of_Torment: "Gardien du Tourment",
 	Guide: "Guide",
 	Half_Orc: "Semi-Orque",
-	Hydra_Dragon: "Hydre * Dragon",
-	Orc_Humanoid: "Orque * Humano&iuml;de",
+	Hydra_Dragon: "Hydre &bull; Dragon",
+	Orc_Humanoid: "Orque &bull; Humano&iuml;de",
 	Phalanx: "Phalange",
 	Polymorph: "Polymorphe",
 	Quartermaster: "Bosco",
@@ -1072,13 +1171,13 @@ LANG.fr = {
 	Thunder_Ring: "Anneau du Tonnerre",
 	Toryn_Gauntlet: "Gantelet Toryn",
 	Trader: "Marchand",
-	Trap_Draconic: "Pi&egrave;ge * Draconique",
-	Undead_Lich: "Mort-Vivant * Liche",
-	Undead_Plague: "Mort-Vivant * Peste",
+	Trap_Draconic: "Pi&egrave;ge &bull; Draconique",
+	Undead_Lich: "Mort-Vivant &bull; Liche",
+	Undead_Plague: "Mort-Vivant &bull; Peste",
 	Veteran: "V&eacute;t&eacute;ran",
 
 	//Thornwood Siege
-	Abyssal_Malformed: "Abyssal * Malform&eacute;",
+	Abyssal_Malformed: "Abyssal &bull; Malform&eacute;",
 	Centaur: "Centaure",
 	Cursed_Bow: "Arc Maudit",
 	Drill_Sergeant: "Sergent Instructeur",
@@ -1093,7 +1192,7 @@ LANG.fr = {
 	Nightblade: "Lame Nocturne",
 	Plaguesmiter: "Rebouteuse",
 	Power_Word_Kill: "Mot de Pouvoir: Meurs",
-	Raider_Humanoid: "Pillard * Humano&iuml;de",
+	Raider_Humanoid: "Pillard &bull; Humano&iuml;de",
 	Scroll_of_Chaos: "Parchemin du Chaos",
 	Siege: "Si&egrave;ge",
 	Stalking_Spell: "Sort de Traque",
@@ -1104,7 +1203,7 @@ LANG.fr = {
 	Time_Bend: "Courbure du Temps",
 	Unicorn_Steak: "Steaks de Licorne",
 	Veris: "Veris",
-	Verminfolk_Animal: "Vermine * Animal",
+	Verminfolk_Animal: "Vermine &bull; Animal",
 	Village_Mob: "Foule du Village",
 	Woodfolk: "Des Bois",
 

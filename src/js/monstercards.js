@@ -6,7 +6,7 @@ cards[local.Monster].push(new Card({
 		req_hero_cleric, 
 		req_hero_destroys_disease,
 		req_hero_wizard, 
-		req_village_magic_attack, 
+		req_village_magic_attack,
 		req_village_weapon
 	]
 }));
@@ -584,3 +584,124 @@ cards[local.Monster].push(new Card({
 		req_hero_destroys_disease
 	]
 }));
+
+//// Starter Set
+cards[local.Monster].push(new Card({
+	name: local.Bestial_Humanoid,
+	set: set.starter,
+	level: 1,
+	requirements: [
+		req_village_weapon
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Virulent_Undead,
+	set: set.starter,
+	level: 2,
+	requirements: [
+		req_hero_destroys_disease
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Behemoth_Giant,
+	set: set.starter,
+	level: 3,
+	requirements: [
+		req_village_weapon,
+		req_village_item,
+		req_village_magic_attack
+	]
+}));
+
+//// Numenera
+cards[local.Monster].push(new Card({
+	name: local.Abhuman,
+	set: set.numenera,
+	level: 1,
+	requirements: [
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Beasts,
+	set: set.numenera,
+	level: 1,
+	requirements: [
+		req_village_weapon,
+		req_village_bow,
+		req_hero_destroys_disease
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Verminous,
+	set: set.numenera,
+	level: 1,
+	requirements: [
+		req_village_weapon
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Automatons,
+	set: set.numenera,
+	level: 2,
+	requirements: [
+		req_hero_human,
+		req_village_mercenary,
+		req_hero_cleric,
+		req_hero_wizard,
+		req_hero_thief
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Bandit_Raider,
+	set: set.numenera,
+	level: 2,
+	requirements: [
+		req_village_item,
+		req_village_weapon,
+		req_village_spell
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Infected,
+	set: set.numenera,
+	level: 2,
+	requirements: [
+		req_hero_destroys_disease
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Ultraterrestrial,
+	set: set.numenera,
+	level: 2,
+	requirements: [
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Ancient_Ones,
+	set: set.numenera,
+	level: 3,
+	requirements: [
+		req_village_light,
+		req_hero_light
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Horrors,
+	set: set.numenera,
+	level: 3,
+	requirements: [
+		req_hero_magic_attack,
+		req_village_magic_attack,
+		req_village_weapon
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Monstrosity,
+	set: set.numenera,
+	level: 3,
+	requirements: [
+		req_village_item,
+		req_village_weapon
+	]
+}));
+

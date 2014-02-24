@@ -272,3 +272,54 @@ cards[local.Disease].push(new Card({
 	name: local.Curses,
 	set: set.towers
 }));
+
+//// Starter Set
+
+cards[local.Thunderstone].push(new Card({
+	name: local.Wraithlyn_Dragon_General,
+	set: set.starter,
+	requirements: [
+		req_village_weapon,
+		req_village_item,
+		req_village_spell
+	]
+}));
+
+cards[local.Disease].push(new Card({
+	name: local.Diseases,
+	set: set.starter
+}));
+
+//// Numenera
+
+cards[local.Treasure].push(new Card({
+	name: local.Treasures_of_Numenera,
+	set: set.numenera,
+	requirements: [
+		req_village_weapon
+	]
+}));
+
+cards[local.Thunderstone].push(new Card({
+	name: local.Phylethis,
+	set: set.numenera,
+	requirements: [
+	]
+}));
+cards[local.Thunderstone].push(new Card({
+	name: local.Sarrak,
+	set: set.numenera,
+	requirements: [
+	]
+}));
+cards[local.Thunderstone].push(new Card({
+	name: local.Convergence_Master,
+	set: set.numenera,
+	requirements: [
+	]
+}));
+
+cards[local.Disease].push(new Card({
+	name: local.Iron_Wind,
+	set: set.numenera
+}));

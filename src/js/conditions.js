@@ -81,6 +81,15 @@ req_hero_fighter=new Condition({
 	}
 });
 
+req_hero_human=new Condition({
+	name: "req_hero_human",
+	type:local.Hero,
+	match: function(card) {
+		return card.is("Human")
+	}
+});
+
+
 req_hero_light = new Condition({
 	name: "req_hero_light",
 	type: local.Hero,

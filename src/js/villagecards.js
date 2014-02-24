@@ -848,3 +848,205 @@ cards[local.Village].push(new Card({
 	magicAttack: true,
 	strength: true
 }));
+
+//// Starter Set
+cards[local.Village].push(new Card({
+	name: local.Bardiche,
+	set: set.starter,
+	types: "Weapon	Polearm",
+	attack: true,
+	weight: 3
+}));
+cards[local.Village].push(new Card({
+	name: local.Champion_Sword,
+	set: set.starter,
+	types: "Weapon	Edged",
+	attack: true,
+	weight: 6
+}));
+cards[local.Village].push(new Card({
+	name: local.Curative_Draught,
+	set: set.starter,
+	types: "Item	Food",
+	destroysDisease: true,
+	attack: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Insight,
+	set: set.starter,
+	types: "Spell	Auxiliary"
+}));
+cards[local.Village].push(new Card({
+	name: local.Novice_Mage,
+	set: set.starter,
+	types: "Villager	Mercenary",
+	magicAttack: true,
+	light: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Opportunist,
+	set: set.starter,
+	types: "Villager"
+}));
+cards[local.Village].push(new Card({
+	name: local.Radiant_Orb,
+	set: set.starter,
+	types: "Item	Magic	Light",
+	light: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Rolling_Sparks,
+	set: set.starter,
+	types: "Spell	Attack	Light",
+	magicAttack: true,
+	light: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Runed_Hammer,
+	set: set.starter,
+	types: "Weapon	Blunt",
+	attack: true,
+	weight: 4
+}));
+cards[local.Village].push(new Card({
+	name: local.Summon_Aid,
+	set: set.starter,
+	types: "Spell	Support"
+}));
+
+//// Numenera
+cards[local.Village].push(new Card({
+	name: local.Backpack,
+	set: set.numenera,
+	types: "Item"
+}));
+cards[local.Village].push(new Card({
+	name: local.Bio_Energy_Cutter,
+	set: set.numenera,
+	types: "Weapon	Edged	Magic",
+	magicAttack: true,
+	weight: 2
+}));
+cards[local.Village].push(new Card({
+	name: local.Bio_Salvager,
+	set: set.numenera,
+	types: "Village	Mercenary",
+	attack: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Chemical_Injector,
+	set: set.numenera,
+	types: "Item	Light",
+	attack: true,
+	magicAttack: true,
+	light: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Dart_Thrower,
+	set: set.numenera,
+	types: "Weapon	Bow	Light",
+	light: true,
+	attack: true,
+	weight: 5
+}));
+cards[local.Village].push(new Card({
+	name: local.Disruption_Blade,
+	set: set.numenera,
+	types: "Weapon	Edged",
+	attack: true,
+	weight: 4
+}));
+cards[local.Village].push(new Card({
+	name: local.Fearemaker,
+	set: set.numenera,
+	types: "Spell	Auxiliary	Light",
+	light: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Mental_Scrambler,
+	set: set.numenera,
+	types: "Spell	Attack",
+	magicAttack: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Nevajin,
+	set: set.numenera,
+	types: "Villager"
+}));
+cards[local.Village].push(new Card({
+	name: local.Paired_Swords,
+	set: set.numenera,
+	types: "Weapon	Edged",
+	attack: true,
+	weight: 5
+}));
+cards[local.Village].push(new Card({
+	name: local.Partisan,
+	set: set.numenera,
+	types: "Weapon	Polearm",
+	attack: true,
+	weight: 3
+}));
+cards[local.Village].push(new Card({
+	name: local.Phase_Disruptor,
+	set: set.numenera,
+	types: "Item",
+	destroysDisease: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Punch_Dagger,
+	set: set.numenera,
+	types: "Weapon	Edged",
+	attack: true,
+	weight: 2
+}));
+cards[local.Village].push(new Card({
+	name: local.Ray_Emitter,
+	set: set.numenera,
+	types: "Spell	Support	Light",
+	strength: true,
+	light: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Retaliation_Nodule,
+	set: set.numenera,
+	types: "Spell	Attack",
+	magicAttack: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Shield_Bearer,
+	set: set.numenera,
+	types: "Villager	Mercenary",
+	attack: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Shock_Nodule,
+	set: set.numenera,
+	types: "Weapon	Blunt",
+	attack: true,
+	weight: 5
+}));
+cards[local.Village].push(new Card({
+	name: local.Unstable_Crytals,
+	set: set.numenera,
+	types: "Item	Magic	Light",
+	magicAttack: true,
+	light: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Village_Headman,
+	set: set.numenera,
+	types: "Village	Mercenary",
+	attack: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Village_Jack,
+	set: set.numenera,
+	types: "Villager",
+	destroysDisease: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Warder,
+	set: set.numenera,
+	types: "Item	Light"
+}));

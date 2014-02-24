@@ -1,5 +1,5 @@
-AddType text/cache-manifest .mf
-<Files ~ "\.mf">
+AddType text/cache-manifest .manifest
+<Files ~ "\.manifest">
 	ExpiresActive On
 	ExpiresDefault "access"
 </Files>

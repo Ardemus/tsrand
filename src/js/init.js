@@ -53,16 +53,18 @@ for (var i=0; i<cardTypes.length; i++)
 
 //Sets
 var set={
-	base: new Set(local.Base, "Base", "B"),
-	caverns: new Set(local.Caverns_of_Bane, "CavernsOfBane", "CB"),
-	doom: new Set(local.Doomgate_Legion, "DoomgateLegion", "DL"),
-	dragonspire: new Set(local.Dragonspire, "Dragonspire", "DS"),
-	heart: new Set(local.Heart_of_Doom, "HeartOfDoom", "HD"),
-	promo: new Set(local.Promo, "Promo", "P"),
-	root: new Set(local.Root_of_Corruption, "RootofCorruption", "RC"),
-	thorn: new Set(local.Thornwood_Siege, "ThornwoodSiege", "TS"),
-	towers: new Set(local.Towers_of_Ruin, "TowersOfRuin", "TR"),
-	wrath: new Set(local.Wrath_Of_The_Elements, "WrathOfTheElements", "WE")
+	base: new Set(local.Base, "Base", "B", false),
+	caverns: new Set(local.Caverns_of_Bane, "CavernsOfBane", "CB", true),
+	doom: new Set(local.Doomgate_Legion, "DoomgateLegion", "DL", false),
+	dragonspire: new Set(local.Dragonspire, "Dragonspire", "DS", false),
+	heart: new Set(local.Heart_of_Doom, "HeartOfDoom", "HD", false),
+	numenera: new Set(local.Numenera, "Numenera", "N", true),
+	promo: new Set(local.Promo, "Promo", "P", false),
+	root: new Set(local.Root_of_Corruption, "RootofCorruption", "RC", true),
+    starter: new Set(local.Starter_Set, "StarterSet", "S", true),
+	thorn: new Set(local.Thornwood_Siege, "ThornwoodSiege", "TS", false),
+	towers: new Set(local.Towers_of_Ruin, "TowersOfRuin", "TR", true),
+	wrath: new Set(local.Wrath_Of_The_Elements, "WrathOfTheElements", "WE", false)
 };
 
 var decks=new Array();
@@ -113,6 +115,7 @@ $(document).ready(function() {
 $(function(){
 	$.extend($.fn.disableTextSelect = function() {
 		return this.each(function(){
+/*
 			if($.browser.mozilla){//Firefox
 				$(this).css('MozUserSelect','none');
 			}else if($.browser.msie){//IE
@@ -120,6 +123,7 @@ $(function(){
 			}else{//Opera, etc.
 				$(this).mousedown(function(){return false;});
 			}
+*/
 		});
 	});
 	$('.noSelect').disableTextSelect();//No text selection on elements with a class of 'noSelect'

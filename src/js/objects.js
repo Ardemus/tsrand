@@ -192,8 +192,9 @@ function Requirement(cond, qty) {
 	}
 }
 
-function Set(name, cssName, code) {
+function Set(name, cssName, code, advance) {
 	this.name=name;
+	this.advance=advance;
 	this.cssName=cssName;
 	this.code=code;
 	this.cssClass="set "+cssName;

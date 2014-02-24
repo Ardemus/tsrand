@@ -777,3 +777,184 @@ cards[local.Hero].push(new Card({
 		req_village_weapon
 	]
 }));
+
+//// Starter Set
+
+cards[local.Hero].push(new Card({
+	name: local.Blackhand,
+	set: set.starter,
+	types: "Human	Thief",
+	strength: 2,
+	attack: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Cathedral,
+	set: set.starter,
+	types: "Human	Cleric",
+	strength: 4,
+	attack: true,
+	magicAttack: true,
+	destroysDisease: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Garrison,
+	set: set.starter,
+	types: "Human	Fighter",
+	strength: 6,
+	attack: true,
+	requirements: [
+		req_village_weapon
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Tower,
+	set: set.starter,
+	types: "Dwarf	Wizard",
+	strength: 2,
+	light: true,
+	magicAttack: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Wildwood,
+	set: set.starter,
+	types: "Elf	Ranger",
+	strength: 5,
+	attack: true,
+	removesMonstersFromHall: true,
+	requirements: [
+	]
+}));
+
+//// Numenera
+cards[local.Hero].push(new Card({
+	name: local.Aeon,
+	set: set.numenera,
+	types: "Human	Cleric	Thief",
+	strength: 3,
+	attack: true,
+	destroysDisease: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Charming,
+	set: set.numenera,
+	types: "Human	Cleric",
+	strength: 4,
+	magicAttack: true,
+	destroysDisease: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Clever,
+	set: set.numenera,
+	types: "Human	Wizard",
+	strength: 3,
+	attack: true,
+	magicAttack: true,
+	requirements: [
+		req_village_weapon
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Graceful,
+	set: set.numenera,
+	types: "Human	Fighter",
+	strength: 4,
+	attack: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Intelligent,
+	set: set.numenera,
+	types: "Human	Cleric",
+	strength: 4,
+	attack: true,
+	destroysDisease: true,
+	light: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Learned,
+	set: set.numenera,
+	types: "Human	Wizard",
+	strength: 2,
+	magicAttack: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Mystic,
+	set: set.numenera,
+	types: "Human	Fighter	Wizard",
+	strength: 4,
+	attack: true,
+	magicAttack: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Rugged,
+	set: set.numenera,
+	types: "Human	Ranger",
+	strength: 5,
+	attack: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Stealthy,
+	set: set.numenera,
+	types: "Human	Thief",
+	strength: 3,
+	attack: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Strong,
+	set: set.numenera,
+	types: "Human	Fighter",
+	strength: 6,
+	attack: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Strong_Willed,
+	set: set.numenera,
+	types: "Human	Thief",
+	strength: 4,
+	light: true,
+	attack: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Swift,
+	set: set.numenera,
+	types: "Human	Ranger",
+	strength: 5,
+	attack: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Tough,
+	set: set.numenera,
+	types: "Human	Cleric",
+	strength: 4,
+	attack: true,
+	requirements: [
+		req_village_weapon
+	]
+}));

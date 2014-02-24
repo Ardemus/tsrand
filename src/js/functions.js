@@ -409,11 +409,27 @@ var Render = {
 	},
 
 	setList: function () {
-		var toReturn="<li class='listHeader' id='listHeaderSet'>"+local.Set+"</li>";
-		for (var key in set) {
-			var s = set[key];
-			var c = s.cssClass;
-			var id = s.cssId;
+		var toReturn, key, s, c, id;
+		toReturn="<li class='listHeader' id='listHeaderSet'>"+ local.Set +"</li>";
+		toReturn+="<li class='setTypeHeader'>" + local.Thunderstone_Advance + "</li>";
+		for (key in set) {
+			s = set[key];
+			if (!s.advance) {
+				continue;
+			}
+			c = s.cssClass;
+			id = s.cssId;
+			toReturn += "<li class='" + c + " button noSelect'><input type='checkbox' id='" + id + "' onclick='" + Controls.getClickEvent(s) + "' checked='checked'><label for='"+id+"'>"+s+"<span class='setCode'> "+s.code+"</span></label></li>";
+		}
+		toReturn+="<li class='setTypeHeader'>" + local.Thunderstone + "</li>";
+		for (key in set) {
+			s = set[key];
+			if (s.advance) {
+				continue;
+			}
+			s = set[key];
+			c = s.cssClass;
+			id = s.cssId;
 			toReturn += "<li class='" + c + " button noSelect'><input type='checkbox' id='" + id + "' onclick='" + Controls.getClickEvent(s) + "' checked='checked'><label for='"+id+"'>"+s+"<span class='setCode'> "+s.code+"</span></label></li>";
 		}
 		return toReturn;
