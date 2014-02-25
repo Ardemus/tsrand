@@ -53,7 +53,11 @@ body {
 	margin:3px;
 	border-radius: 5px;
 	box-shadow: 2px 2px 2px #333;
-	padding:5px;
+	padding:4px;
+    border: 1px solid transparent;
+}
+.button label {
+    cursor: pointer;
 }
 .button:active {
 	margin: 5px 1px 1px 5px;
@@ -97,10 +101,15 @@ body {
 	width:100px;
 }
 
+li.button {
+    position:relative;
+}
+
 .set input, .card select {
 	position:absolute;
-	left:-100px;
-	top:-100px;
+	left: 0;
+	top: 0;
+    visibility: hidden;
 }
 
 .gameCard {
@@ -120,6 +129,7 @@ body {
 .container {
 	float:left;
 	background: url("images/bg-cropped.jpg") repeat scroll 0 0 #E6E4DB;
+    background-size: 100%;
 	margin: 3px;
 	min-width:314px; /* Margins add 6 pixels of width */
 	max-width:639px;	
@@ -128,11 +138,13 @@ body {
 .containerHeader {
 	height: 100px;
 	background: url("images/top-cropped.jpg") no-repeat scroll left top transparent;
+    background-size: 100%;
 	text-align: center;
 }
 .containerFooter {
 	height: 62px;
-	background: url("images/bottom-cropped.jpg") repeat scroll 0 0 transparent;
+	background: url("images/bottom-cropped.jpg") no-repeat scroll left bottom transparent;
+    background-size: 100%;
 	clear: both;
 }
 #footer-links {

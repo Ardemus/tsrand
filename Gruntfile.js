@@ -123,7 +123,10 @@ module.exports = function (grunt) {
 			},
 			app: {
 				files: 'src/**/*.*',
-				tasks: ['env:dev', 'build']
+				tasks: ['env:dev', 'build'],
+				options: {
+					livereload: true
+				}
 			}
 		}
 	});
@@ -143,6 +146,8 @@ module.exports = function (grunt) {
 	grunt.registerTask('build', ['concat', 'uglify', 'cssmin', 'preprocess:index', 'copy']);
 	grunt.registerTask('prod', ['env:prod', 'clean', 'build', 'preprocess:manifest']);
 	grunt.registerTask('aeg', ['env:aeg', 'clean', 'build', 'preprocess:manifest']);
-	grunt.registerTask('default', ['env:dev', 'clean', 'build']);
+	grunt.registerTask('dev', ['env:dev', 'clean', 'build']);
+	grunt.registerTask('run', ['dev', 'watch']);
+	grunt.registerTask('default', ['dev']);
 
 };

@@ -11,8 +11,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Thundermaster: Intelligent Randomizer for Thunderstone</title>
-	<meta name="viewport" content="width=320, user-scalable=false">
-	<!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- @if ENV == 'DEVELOPMENT' -->
 	<link rel="stylesheet" href="style.css"/>
@@ -99,8 +98,8 @@
 				<li class="listHeader">Key</li>
 				<li id="requiredKey" class="card button noSelect Key"><label class="required" id="requiredKeyLabel">Required</label>
 				</li>
-				<li id="allowedKey" class="card button noSelect Key"><label>Allowed</label></li>
-				<li id="disallowedKey" class="card button noSelect Key disabled"><label>Disallowed</label></li>
+				<li id="allowedKey" class="card button noSelect Key"><label id="allowedKeyLabel">Alllowed</label></li>
+				<li id="disallowedKey" class="card button noSelect Key disabled"><label id="disallowedKeyLabel">Disallowed</label></li>
 				<li id="instructions" class="explanation">Click a card to toggle it, or a set to toggle all cards in
 					that set
 				</li>

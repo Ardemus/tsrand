@@ -1,4 +1,4 @@
-// Useful for finding characters that need to be encoded: [^-&;&bull;=a-zA-Z:/\s,"_0-9.{}\\']
+// Useful for finding characters that need to be encoded: [^-&;*=a-zA-Z:/\s,"_0-9.{}\\']
 
 var LANG = {};
 LANG.us = {
