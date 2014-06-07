@@ -56,6 +56,15 @@ cards[local.Hero].push(new Card({
 	]
 }));
 cards[local.Hero].push(new Card({
+	name: local.Bluefire,
+	set: set.worlds,
+	types: "Human Cleric Wizard",
+	strength: 2,
+	magicAttack: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
 	name: local.Cabal,
 	set: set.dragonspire,
 	types: "Wizard",
@@ -118,6 +127,15 @@ cards[local.Hero].push(new Card({
 	]
 }));
 cards[local.Hero].push(new Card({
+	name: local.Clan,
+	set: set.worlds,
+	types: "Dwarf Fighter",
+	strength: 6,
+	attack: true,
+	requirements: [
+		req_village_weapon
+	]
+}));cards[local.Hero].push(new Card({
 	name: local.Criochan,
 	set: set.towers,
 	types: "Human Fighter",
@@ -130,6 +148,16 @@ cards[local.Hero].push(new Card({
 	name: local.Dark,
 	set: set.heart,
 	types: "Wizard",
+	strength: 2,
+	magicAttack: true,
+	requirements: [
+		req_village_villager
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Dark,
+	set: set.worlds,
+	types: "Human Wizard",
 	strength: 2,
 	magicAttack: true,
 	requirements: [
@@ -201,6 +229,16 @@ cards[local.Hero].push(new Card({
 	name: local.Divine,
 	set: set.wrath,
 	types: "Cleric",
+	strength: 4,
+	attack: true,
+	destroysDisease: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Divine,
+	set: set.worlds,
+	types: "Human Cleric",
 	strength: 4,
 	attack: true,
 	destroysDisease: true,
@@ -302,6 +340,15 @@ cards[local.Hero].push(new Card({
 	]
 }));
 cards[local.Hero].push(new Card({
+	name: local.Gohlen,
+	set: set.worlds,
+	types: "Human Ranger",
+	strength: 5,
+	attack: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
 	name: local.Gorinth,
 	set: set.dragonspire,
 	types: "Wizard",
@@ -333,6 +380,17 @@ cards[local.Hero].push(new Card({
 	]
 }));
 cards[local.Hero].push(new Card({
+	name: local.Harruli,
+	set: set.worlds,
+	types: "Human Fighter Wizard",
+	strength: 5,
+	attack: true,
+	magicAttack: true,
+	requirements: [
+		req_village_spell
+	]
+}));
+cards[local.Hero].push(new Card({
 	name: local.Highland,
 	set: set.heart,
 	types: "Fighter Thief",
@@ -345,6 +403,17 @@ cards[local.Hero].push(new Card({
 	name: local.Isri,
 	set: set.heart,
 	types: "Fighter Archer",
+	strength: 5,
+	attack: true,
+	requirements: [
+		req_village_item,
+		req_village_weapon
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Isri,
+	set: set.worlds,
+	types: "Human Fighter Ranger",
 	strength: 5,
 	attack: true,
 	requirements: [
@@ -375,6 +444,16 @@ cards[local.Hero].push(new Card({
 	name: local.Lorigg,
 	set: set.base,
 	types: "Thief",
+	strength: 4,
+	attack: true,
+	light: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Lorigg,
+	set: set.worlds,
+	types: "Human Thief",
 	strength: 4,
 	attack: true,
 	light: true,
@@ -566,6 +645,17 @@ cards[local.Hero].push(new Card({
 	]
 }));
 cards[local.Hero].push(new Card({
+	name: local.Stoneguard,
+	set: set.worlds,
+	types: "Dwarf Fighter",
+	strength: 6,
+	attack: true,
+	requirements: [
+		req_village_weapon,
+		req_village_mercenary
+	]
+}));
+cards[local.Hero].push(new Card({
 	name: local.Tempest,
 	set: set.doom,
 	types: "Fighter",
@@ -599,6 +689,16 @@ cards[local.Hero].push(new Card({
 	name: local.Tholis,
 	set: set.doom,
 	types: "Thief Wizard",
+	strength: 3,
+	magicAttack: true,
+	requirements: [
+	],
+	removesMonstersFromHall: true
+}));
+cards[local.Hero].push(new Card({
+	name: local.Tholis,
+	set: set.worlds,
+	types: "Human Thief Wizard",
 	strength: 3,
 	magicAttack: true,
 	requirements: [
@@ -705,6 +805,17 @@ cards[local.Hero].push(new Card({
 	destroysDisease: true,
 	requirements: [
 		
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Woodfolk,
+	set: set.worlds,
+	types: "Human Fighter Cleric",
+	strength: 4,
+	attack: true,
+	destroysDisease: true,
+	requirements: [
+
 	]
 }));
 cards[local.Hero].push(new Card({

@@ -64,6 +64,7 @@ var set={
     starter: new Set(local.Starter_Set, "StarterSet", "S", true),
 	thorn: new Set(local.Thornwood_Siege, "ThornwoodSiege", "TS", false),
 	towers: new Set(local.Towers_of_Ruin, "TowersOfRuin", "TR", true),
+	worlds: new Set(local.Worlds_Collide, "WorldsCollide", "WC", true),
 	wrath: new Set(local.Wrath_Of_The_Elements, "WrathOfTheElements", "WE", false)
 };
 
@@ -127,6 +128,14 @@ $(function(){
 		});
 	});
 	$('.noSelect').disableTextSelect();//No text selection on elements with a class of 'noSelect'
+
+	$('#randomizeButton').click(function() {Game.randomize()});
+	$('#quickd6Button').click(function() {Game.quickd6()});
+	$('#langUS').click(function() {Util.setLanguage('us')});
+	$('#langDE').click(function() {Util.setLanguage('de')});
+	$('#langFR').click(function() {Util.setLanguage('fr')});
+
+
 });
 
 //Set sizing

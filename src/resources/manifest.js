@@ -20,3 +20,5 @@ NETWORK:
 http://api.bit.ly
 http://bit.ly
 http://secure.gaug.es
+http://static.getclicky.com
+http://in.getclicky.com

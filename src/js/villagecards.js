@@ -1,5 +1,12 @@
 cards[local.Village].push(new Card({
 	name: local.Ambrosia,
+	set: set.worlds,
+	types: "Item Food Magic",
+	attack: true,
+	strength: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Ambrosia,
 	set: set.wrath,
 	types: "Item Food Magic",
 	attack: true,
@@ -80,6 +87,14 @@ cards[local.Village].push(new Card({
 	removesMonstersFromHall: true
 }));
 cards[local.Village].push(new Card({
+	name: local.Blessed_Hammer,
+	set: set.worlds,
+	types: "Weapon Blunt",
+	magicAttack: true,
+	weight: 4,
+	removesMonstersFromHall: true
+}));
+cards[local.Village].push(new Card({
 	name: local.Bloodhound,
 	set: set.caverns,
 	types: "Village Mercenary",
@@ -96,6 +111,12 @@ cards[local.Village].push(new Card({
 cards[local.Village].push(new Card({
 	name: local.Border_Guard,
 	set: set.doom,
+	types: "Villager Mercenary",
+	attack: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Border_Guard,
+	set: set.worlds,
 	types: "Villager Mercenary",
 	attack: true
 }));
@@ -122,6 +143,14 @@ cards[local.Village].push(new Card({
 	types: "Weapon Blunt"
 }));
 cards[local.Village].push(new Card({
+	name: local.Chalice_Mace,
+	set: set.worlds,
+	attack: true,
+	types: "Weapon Blunt Light",
+	light: true,
+	weight: 6
+}));
+cards[local.Village].push(new Card({
 	name: local.Charm_of_Venery,
 	set: set.caverns,
 	attack: true,
@@ -133,6 +162,11 @@ cards[local.Village].push(new Card({
 	types: "Item Magic"
 }));
 cards[local.Village].push(new Card({
+	name: local.Chieftan_s_Drum,
+	set: set.worlds,
+	types: "Item Magic"
+}));
+cards[local.Village].push(new Card({
 	name: local.Claymore,
 	set: set.wrath,
 	types: "Weapon Edged",
@@ -141,8 +175,13 @@ cards[local.Village].push(new Card({
 }));
 cards[local.Village].push(new Card({
 	name: local.Creeping_Death,
+	set: set.worlds,
+	types: "Spell"
+}));
+cards[local.Village].push(new Card({
+	name: local.Creeping_Death,
 	set: set.wrath,
-	types: "Spell",
+	types: "Spell"
 }));
 cards[local.Village].push(new Card({
 	name: local.Cursed_Bow,
@@ -191,8 +230,17 @@ cards[local.Village].push(new Card({
 	types: "Item"
 }));
 cards[local.Village].push(new Card({
+	name: local.Dredging_Net,
+	set: set.worlds,
+	types: "Item"
+}));
+cards[local.Village].push(new Card({
 	name: local.Drill_Sergeant,
 	set: set.thorn,
+	types: "Villager Mercenary"
+}));cards[local.Village].push(new Card({
+	name: local.Drill_Sergeant,
+	set: set.worlds,
 	types: "Villager Mercenary"
 }));
 cards[local.Village].push(new Card({
@@ -229,6 +277,13 @@ cards[local.Village].push(new Card({
 	strength: true
 }));
 cards[local.Village].push(new Card({
+	name: local.Feast,
+	set: set.worlds,
+	types: "Item Food",
+	attack: true,
+	strength: true
+}));
+cards[local.Village].push(new Card({
 	name: local.Filigree_Amulet,
 	set: set.towers,
 	types: "Item Magic Light",
@@ -245,6 +300,14 @@ cards[local.Village].push(new Card({
 	name: local.Flaming_Sword,
 	set: set.base,
 	types: "Weapon Edged",
+	light: true,
+	magicAttack: true,
+	weight: 5
+}));
+cards[local.Village].push(new Card({
+	name: local.Flaming_Sword,
+	set: set.worlds,
+	types: "Weapon Edged Magic Light",
 	light: true,
 	magicAttack: true,
 	weight: 5
@@ -321,8 +384,21 @@ cards[local.Village].push(new Card({
 	weight: 5
 }));
 cards[local.Village].push(new Card({
+	name: local.Guardian_Blade,
+	set: set.worlds,
+	types: "Weapon Edged",
+	attack: true,
+	weight: 5
+}));
+cards[local.Village].push(new Card({
 	name: local.Guide,
 	set: set.dragonspire,
+	types: "Villager Mercenary",
+	light: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Guide,
+	set: set.worlds,
 	types: "Villager Mercenary",
 	light: true
 }));
@@ -369,6 +445,12 @@ cards[local.Village].push(new Card({
 cards[local.Village].push(new Card({
 	name: local.Jondul_Bow,
 	set: set.heart,
+	attack: true,
+	types: "Weapon Bow"
+}));
+cards[local.Village].push(new Card({
+	name: local.Jondul_Bow,
+	set: set.worlds,
 	attack: true,
 	types: "Weapon Bow"
 }));
@@ -519,6 +601,11 @@ cards[local.Village].push(new Card({
 	types: "Spell"
 }));
 cards[local.Village].push(new Card({
+	name: local.Ritual_of_Cleansing,
+	set: set.worlds,
+	types: "Spell Auxiliary"
+}));
+cards[local.Village].push(new Card({
 	name: local.Royal_Summons,
 	set: set.towers,
 	types: "Spell Auxiliary"
@@ -611,9 +698,23 @@ cards[local.Village].push(new Card({
 	types: "Spell"
 }));
 cards[local.Village].push(new Card({
+	name: local.Soulfire,
+	set: set.worlds,
+	light: true,
+	magicAttack: true,
+	types: "Spell Attack Light"
+}));
+cards[local.Village].push(new Card({
 	name: local.Spear,
 	set: set.base,
 	types: "Weapon Edged",
+	attack: true,
+	weight: 4
+}));
+cards[local.Village].push(new Card({
+	name: local.Spear,
+	set: set.worlds,
+	types: "Weapon Edged Polearm",
 	attack: true,
 	weight: 4
 }));
@@ -696,6 +797,11 @@ cards[local.Village].push(new Card({
 	types: "Spell"
 }));
 cards[local.Village].push(new Card({
+	name: local.Time_Bend,
+	set: set.worlds,
+	types: "Spell Auxiliary"
+}));
+cards[local.Village].push(new Card({
 	name: local.Toryn_Gauntlet,
 	set: set.dragonspire,
 	types: "Weapon Magic",
@@ -708,8 +814,18 @@ cards[local.Village].push(new Card({
 	types: "Villager"
 }));
 cards[local.Village].push(new Card({
+	name: local.Town_Guard,
+	set: set.worlds,
+	types: "Villager"
+}));
+cards[local.Village].push(new Card({
 	name: local.Trader,
 	set: set.dragonspire,
+	types: "Villager Mercenary"
+}));
+cards[local.Village].push(new Card({
+	name: local.Trader,
+	set: set.worlds,
 	types: "Villager Mercenary"
 }));
 cards[local.Village].push(new Card({

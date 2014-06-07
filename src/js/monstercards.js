@@ -41,6 +41,17 @@ cards[local.Monster].push(new Card({
 	]
 }));
 cards[local.Monster].push(new Card({
+	name: local.Abyssal_Thunderspawn,
+	set: set.worlds,
+	level: 1,
+	requirements: [
+		req_hero_ranger,
+		req_hero_cleric,
+		req_hero_destroys_disease,
+		req_hero_wizard
+	]
+}));
+cards[local.Monster].push(new Card({
 	name: local.Bandit_Humanoid,
 	set: set.dragonspire,
 	level: 2,
@@ -116,13 +127,22 @@ cards[local.Monster].push(new Card({
 	set: set.base,
 	level: 2,
 	requirements: [
+		req_hero_fighter,
+		req_village_light,
+		req_village_weapon
+	]
+}));cards[local.Monster].push(new Card({
+	name: local.Doomknight_Humanoid,
+	set: set.worlds,
+	level: 2,
+	requirements: [
 		req_hero_fighter, 
 		req_village_light, 
 		req_village_weapon
 	]
 }));
 cards[local.Monster].push(new Card({
-	name: local.Doomknight_Humanoid,
+	name: local.Doomknight_Undead,
 	set: set.caverns,
 	level: 3,
 	requirements: [
@@ -173,6 +193,18 @@ cards[local.Monster].push(new Card({
 	]
 }));
 cards[local.Monster].push(new Card({
+	name: local.Dragon_Chromatic,
+	set: set.worlds,
+	level: 3,
+	requirements: [
+		req_hero_attack,
+		req_hero_magic_attack,
+		req_village_attack,
+		req_village_magic_attack,
+		req_village_weapon
+	]
+}));
+cards[local.Monster].push(new Card({
 	name: local.Dragon_Fire,
 	set: set.towers,
 	level: 3,
@@ -195,6 +227,17 @@ cards[local.Monster].push(new Card({
 	]
 }));
 cards[local.Monster].push(new Card({
+	name: local.Dragon_Humanoid,
+	set: set.worlds,
+	level: 3,
+	requirements: [
+		req_hero_ranger,
+		req_hero_cleric,
+		req_hero_fighter,
+		req_hero_thief,
+		req_hero_wizard
+	]
+}));cards[local.Monster].push(new Card({
 	name: local.Dryad,
 	set: set.heart,
 	level: 3,
@@ -266,6 +309,15 @@ cards[local.Monster].push(new Card({
 cards[local.Monster].push(new Card({
 	name: local.Giant,
 	set: set.dragonspire,
+	level: 2,
+	requirements: [
+		req_hero_strength,
+		req_village_weapon
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Giant,
+	set: set.worlds,
 	level: 2,
 	requirements: [
 		req_hero_strength,
@@ -345,6 +397,16 @@ cards[local.Monster].push(new Card({
 	]
 }));
 cards[local.Monster].push(new Card({
+	name: local.Ooze,
+	set: set.worlds,
+	level: 1,
+	requirements: [
+		req_village_edged_weapon,
+		req_village_food,
+		req_village_nonedged_weapon
+	]
+}));
+cards[local.Monster].push(new Card({
 	name: local.Ooze_Cavern,
 	set: set.caverns,
 	level: 1,
@@ -387,6 +449,13 @@ cards[local.Monster].push(new Card({
 	]
 }));
 cards[local.Monster].push(new Card({
+	name: local.Spider_Animal,
+	set: set.worlds,
+	level: 2,
+	requirements: [
+	]
+}));
+cards[local.Monster].push(new Card({
 	name: local.The_Swarm,
 	set: set.doom,
 	level: 1,
@@ -414,6 +483,15 @@ cards[local.Monster].push(new Card({
 	]
 }));
 cards[local.Monster].push(new Card({
+	name: local.Undead_Doom,
+	set: set.worlds,
+	level: 1,
+	requirements: [
+		req_hero_destroys_disease,
+		req_village_spell,
+		req_village_weapon
+	]
+}));cards[local.Monster].push(new Card({
 	name: local.Undead_Horde,
 	set: set.towers,
 	level: 1,
@@ -462,8 +540,27 @@ cards[local.Monster].push(new Card({
 	]
 }));
 cards[local.Monster].push(new Card({
+	name: local.Undead_Spectral,
+	set: set.worlds,
+	level: 3,
+	requirements: [
+		req_village_food
+	]
+}));
+cards[local.Monster].push(new Card({
 	name: local.Undead_Spirit,
 	set: set.base,
+	level: 2,
+	requirements: [
+		req_hero_magic_attack,
+		req_hero_strength,
+		req_village_magic_attack,
+		req_village_strength,
+		req_village_weapon
+	]
+}));cards[local.Monster].push(new Card({
+	name: local.Undead_Spirit,
+	set: set.worlds,
 	level: 2,
 	requirements: [
 		req_hero_magic_attack, 

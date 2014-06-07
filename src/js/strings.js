@@ -92,6 +92,7 @@ LANG.us = {
 	Dark_Enchanted: "Dark Enchanted",
 	Doomknight_Humanoid: "Doomknight &bull; Humanoid",
 	Dragon: "Dragon",
+	Dragon_Chromatic: "Dragon &bull; Chromatic",
 	Dragon_Humanoid: "Dragon &bull; Humanoid",
 	Elemental_Fire: "Elemental &bull; Fire",
 	Elemental_Nature: "Elemental &bull; Nature",
@@ -508,6 +509,9 @@ LANG.us = {
 	//Diseases
 	Iron_Wind: "Iron Wind",
 
+	//==Worlds Collide
+	Worlds_Collide: "Worlds Collide",
+	Void_Apocalypse: "Void Apocalypse",
 
 	//UI
 	Allowed: "Allowed",

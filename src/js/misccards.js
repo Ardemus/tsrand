@@ -63,6 +63,19 @@ cards[local.Thunderstone].push(new Card({
 		req_village_mercenary
 	]
 }));
+cards[local.Thunderstone].push(new Card({
+	name: local.Void_Apocalypse,
+	set: set.worlds,
+	requirements: [
+	]
+}));
+cards[local.Thunderstone].push(new Card({
+	name: local.The_Last_Doomknight,
+	set: set.worlds,
+	requirements: [
+		req_village_light
+	]
+}));
 
 cards[local.Trap].push(new Card({
 	name: local.Trap_Death,
@@ -90,6 +103,12 @@ cards[local.Trap].push(new Card({
 cards[local.Guardian].push(new Card({
 	name: local.Dark_Champion,
 	set: set.wrath,
+	requirements: [
+	]
+}));
+cards[local.Guardian].push(new Card({
+	name: local.Dark_Champion,
+	set: set.worlds,
 	requirements: [
 	]
 }));
@@ -126,6 +145,13 @@ cards[local.Guardian].push(new Card({
 cards[local.Guardian].push(new Card({
 	name: local.Guardian_of_Virulence,
 	set: set.thorn,
+	requirements: [
+		req_hero_destroys_disease
+	]
+}));
+cards[local.Guardian].push(new Card({
+	name: local.Guardian_of_Virulence,
+	set: set.worlds,
 	requirements: [
 		req_hero_destroys_disease
 	]
@@ -322,4 +348,11 @@ cards[local.Thunderstone].push(new Card({
 cards[local.Disease].push(new Card({
 	name: local.Iron_Wind,
 	set: set.numenera
+}));
+
+//// Worlds Collide
+
+cards[local.Disease].push(new Card({
+	name: local.Diseases,
+	set: set.worlds
 }));
