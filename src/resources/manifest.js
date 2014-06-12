@@ -22,3 +22,4 @@ http://bit.ly
 http://secure.gaug.es
 http://static.getclicky.com
 http://in.getclicky.com
+http://chart.googleapis.com

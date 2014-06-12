@@ -607,7 +607,7 @@ var Util = {
 	shareConfigDisplay: function (response) {
 		if (response.status_code === 200) {
 			var shortUrl = response.data.url;
-			document.getElementById("shareConfigQR").src = shortUrl + ".qrcode";
+			document.getElementById("shareConfigQR").src = "http://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=" + encodeURI(shortUrl);
 			document.getElementById("shareConfigBox").value = shortUrl;
 			document.getElementById("shareConfig").style.display = "block";
 		}
