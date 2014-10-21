@@ -70,6 +70,19 @@ cards[local.Thunderstone].push(new Card({
 	]
 }));
 cards[local.Thunderstone].push(new Card({
+	name: local.Heart_of_Doom,
+	set: set.intoabyss,
+	requirements: [
+	]
+}));
+cards[local.Thunderstone].push(new Card({
+	name: local.Oblivion_Deathkeeper,
+	set: set.intoabyss,
+	requirements: [
+	]
+}));
+
+cards[local.Thunderstone].push(new Card({
 	name: local.The_Last_Doomknight,
 	set: set.worlds,
 	requirements: [
@@ -355,4 +368,18 @@ cards[local.Disease].push(new Card({
 cards[local.Disease].push(new Card({
 	name: local.Diseases,
 	set: set.worlds
+}));
+
+/// Into the Abyss
+cards[local.Guardian].push(new Card({
+	name: local.Guardian_of_Revenge,
+	set: set.intoabyss,
+	requirements: [
+	]
+}));
+cards[local.Guardian].push(new Card({
+	name: local.Guardian_of_Strength,
+	set: set.intoabyss,
+	requirements: [
+	]
 }));

@@ -1166,3 +1166,107 @@ cards[local.Village].push(new Card({
 	set: set.numenera,
 	types: "Item	Light"
 }));
+
+/// Into the Abyss
+cards[local.Village].push(new Card({
+	name: local.Augmentation_Amulet,
+	set: set.intoabyss,
+	types: "Item	Magic	Light"
+}));
+cards[local.Village].push(new Card({
+	name: local.Banish,
+	set: set.intoabyss,
+	types: "Spell	Auxiliary",
+	removesMonstersFromHall: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Bolt_of_Purity,
+	set: set.intoabyss,
+	types: "Spell	Attack",
+	destroysDisease: true,
+	magicAttack: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Cursed_Mace,
+	set: set.intoabyss,
+	types: "Weapon Blunt",
+	attack: true,
+	weight: 5
+}));
+cards[local.Village].push(new Card({
+	name: local.Demon_Vision,
+	set: set.intoabyss,
+	types: "Spell	Auxiliary"
+}));
+cards[local.Village].push(new Card({
+	name: local.Doomgate_Squire,
+	set: set.intoabyss,
+	types: "Villager Mercenary",
+	attack: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Entrail_Reader,
+	set: set.intoabyss,
+	types: "Villager",
+	destroysDisease: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Fireball,
+	set: set.intoabyss,
+	types: "Spell	Attack	Light",
+	light: true,
+	magicAttack: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Frost_Giant_Axe,
+	set: set.intoabyss,
+	types: "Weapon Edged	Magic",
+	attack: true,
+	weight: 6
+}));
+cards[local.Village].push(new Card({
+	name: local.Icon_of_Inversion,
+	set: set.intoabyss,
+	types: "Item"
+}));
+cards[local.Village].push(new Card({
+	name: local.Lightstone_Gem,
+	set: set.intoabyss,
+	types: "Item Light Magic",
+	light: true
+}));
+cards[local.Village].push(new Card({
+	name: local.Polearm,
+	set: set.intoabyss,
+	types: "Weapon Edged	Polearm",
+	attack: true,
+	weight: 2
+}));
+cards[local.Village].push(new Card({
+	name: local.Reclusive_Mystic,
+	set: set.intoabyss,
+	types: "Villager"
+}));
+cards[local.Village].push(new Card({
+	name: local.Sage,
+	set: set.intoabyss,
+	types: "Villager"
+}));
+cards[local.Village].push(new Card({
+	name: local.Short_Bow,
+	set: set.intoabyss,
+	types: "Weapon Bow",
+	attack: true,
+	weight: 4
+}));
+cards[local.Village].push(new Card({
+	name: local.Swamp_Provisions,
+	set: set.intoabyss,
+	types: "Item Food"
+}));
+cards[local.Village].push(new Card({
+	name: local.Toryn_Gauntlet,
+	set: set.intoabyss,
+	types: "Item Magic",
+	magicAttack: true
+}));

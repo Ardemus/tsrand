@@ -1069,3 +1069,96 @@ cards[local.Hero].push(new Card({
 		req_village_weapon
 	]
 }));
+
+/// Into the Abyss
+
+cards[local.Hero].push(new Card({
+	name: local.Blind,
+	set: set.intoabyss,
+	types: "Human	Fighter	Cleric",
+	strength: 4,
+	attack: true,
+	requirements: [
+		req_village_light_item
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Chalice,
+	set: set.intoabyss,
+	types: "Human	Fighter	Cleric",
+	strength: 5,
+	magicAttack: true,
+	destroysDisease: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Grim,
+	set: set.intoabyss,
+	types: "Human	Cleric",
+	strength: 4,
+	attack: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Outlands,
+	set: set.intoabyss,
+	types: "Human	Fighter",
+	strength: 7,
+	attack: true,
+	requirements: [
+		req_village_food
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Regian,
+	set: set.intoabyss,
+	types: "Human	Cleric",
+	strength: 4,
+	magicAttack: true,
+	destroysDisease: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Thornwood,
+	set: set.intoabyss,
+	types: "Human	Ranger",
+	strength: 4,
+	attack: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Verdan,
+	set: set.intoabyss,
+	types: "Elf	Ranger	Thief",
+	strength: 5,
+	attack: true,
+	requirements: [
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Veris,
+	set: set.intoabyss,
+	types: "Elf	Wizard",
+	strength: 4,
+	magicAttack: true,
+	requirements: [
+		req_village_weapon
+	]
+}));
+cards[local.Hero].push(new Card({
+	name: local.Xenomorph,
+	set: set.intoabyss,
+	types: "Xenomorph",
+	strength: 3,
+	attack: true,
+	requirements: [
+	]
+}));
+
+
+
+

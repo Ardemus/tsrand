@@ -802,3 +802,76 @@ cards[local.Monster].push(new Card({
 	]
 }));
 
+/// Into the Abyss
+cards[local.Monster].push(new Card({
+	name: local.Abyssal_Elite,
+	set: set.intoabyss,
+	level: 2,
+	requirements: [
+		req_hero_magic_attack,
+		req_hero_destroys_disease,
+		req_hero_cleric,
+		req_hero_wizard,
+		req_village_magic_attack,
+		req_village_weapon
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Abyssal_Horde,
+	set: set.intoabyss,
+	level: 1,
+	requirements: [
+		req_hero_destroys_disease
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Abyssal_Malformed,
+	set: set.intoabyss,
+	level: 2,
+	requirements: [
+		req_hero_destroys_disease,
+		req_village_light_item,
+		req_hero_fighter,
+		req_village_food
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Doomknight_Death,
+	set: set.intoabyss,
+	level: 3,
+	requirements: [
+		req_hero_fighter
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Elemental_Pain,
+	set: set.intoabyss,
+	level: 3,
+	requirements: [
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Undead_Lich,
+	set: set.intoabyss,
+	level: 1,
+	requirements: [
+		req_hero_attack,
+		req_hero_cleric,
+		req_hero_destroys_disease,
+		req_hero_magic_attack,
+		req_hero_wizard,
+		req_village_attack,
+		req_village_magic_attack,
+		req_village_spell
+	]
+}));
+cards[local.Monster].push(new Card({
+	name: local.Undead_Plague,
+	set: set.intoabyss,
+	level: 2,
+	requirements: [
+		req_hero_destroys_disease
+	]
+}));
+
+

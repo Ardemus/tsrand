@@ -58,6 +58,7 @@ var set={
 	doom: new Set(local.Doomgate_Legion, "DoomgateLegion", "DL", false),
 	dragonspire: new Set(local.Dragonspire, "Dragonspire", "DS", false),
 	heart: new Set(local.Heart_of_Doom, "HeartOfDoom", "HD", false),
+	intoabyss: new Set(local.Into_the_Abyss, "IntoTheAbyss", "IA", true),
 	numenera: new Set(local.Numenera, "Numenera", "N", true),
 	promo: new Set(local.Promo, "Promo", "P", false),
 	root: new Set(local.Root_of_Corruption, "RootofCorruption", "RC", true),

@@ -6,12 +6,14 @@ LANG.us = {
 	Ambrosia: "Ambrosia",
 	Amulet_of_Power: "Amulet of Power",
 	Arcane_Energies: "Arcane Energies",
+	Augmentation_Amulet: "Augmentation Amulet",
 	Banish: "Banish",
 	Barkeep: "Barkeep",
 	Battle_Fury: "Battle Fury",
 	Blacksmith: "Blacksmith",
 	Blessed_Hammer: "Blessed Hammer",
 	Bluefire_Staff: "Bluefire Staff",
+	Bolt_of_Purity: "Bolt of Purity",
 	Border_Guard: "Border Guard",
 	Burnt_Offering: "Burnt Offering",
 	Chieftan_s_Drum: "Chieftan\'s Drum",
@@ -20,10 +22,12 @@ LANG.us = {
 	Cursed_Bow: "Cursed Bow",
 	Cursed_Mace: "Cursed Mace",
 	Cyclone: "Cyclone",
+	Demon_Vision: "Demon Vision",
 	Divine_Staff: "Divine Staff",
 	Doomgate_Squire: "Doomgate Squire",
 	Drill_Sergeant: "Drill Sergeant",
 	Elite_Militia: "Elite Militia",
+	Entrail_Reader: "Entrail Reader",
 	Feast: "Feast",
 	Fireball: "Fireball",
 	Flaming_Sword: "Flaming Sword",
@@ -40,6 +44,7 @@ LANG.us = {
 	Guiding_Light: "Guiding Light",
 	Hatchet: "Hatchet",
 	Highland_Officer: "Highland Officer",
+	Icon_of_Inversion: "Icon of Inversion",
 	Illusory_Blade: "Illusory Blade",
 	Insight_Blade: "Insight Blade",
 	Lantern: "Lantern",
@@ -54,6 +59,7 @@ LANG.us = {
 	Polymorph: "Polymorph",
 	Power_Word_Kill: "Power Word: Kill",
 	Quartermaster: "Quartermaster",
+	Reclusive_Mystic: "Reclusive Mystic",
 	Recurve_Bow: "Recurve Bow",
 	Sage: "Sage",
 	Scout: "Scout",
@@ -84,12 +90,15 @@ LANG.us = {
 
 	//Monster
 	Abyssal: "Abyssal",
+	Abyssal_Elite: "Abyssal &bull; Elite",
+	Abyssal_Horde: "Abyssal &bull; Horde",
 	Abyssal_Malformed: "Abyssal &bull; Malformed",
 	Abyssal_Thunderspawn: "Abyssal &bull; Thunderspawn",
 	Bandit_Humanoid: "Bandit &bull; Humanoid",
 	Centaur: "Centaur",
 	Cultist_Humanoid: "Cultist &bull; Humanoid",
 	Dark_Enchanted: "Dark Enchanted",
+	Doomknight_Death: "Doomknight &bull; Death",
 	Doomknight_Humanoid: "Doomknight &bull; Humanoid",
 	Dragon: "Dragon",
 	Dragon_Chromatic: "Dragon &bull; Chromatic",
@@ -176,6 +185,7 @@ LANG.us = {
 	Gangland: "Gangland",
 	Gohlen: "Gohlen",
 	Gorinth: "Gorinth",
+	Grim: "Grim",
 	Half_Orc: "Half-Orc",
 	Harruli: "Harruli",
 	Krell: "Krell",
@@ -202,6 +212,7 @@ LANG.us = {
 	Veris: "Veris",
 	Veteran: "Veteran",
 	Woodfolk: "Woodfolk",
+	Xenomorph: "Xenomorph",
 
 	//Card types
 	Setting: "Setting",
@@ -512,6 +523,12 @@ LANG.us = {
 	//==Worlds Collide
 	Worlds_Collide: "Worlds Collide",
 	Void_Apocalypse: "Void Apocalypse",
+
+	//===Into the Abyss===
+	Into_the_Abyss: "Into the Abyss",
+	Oblivion_Deathkeeper: "Oblivion, Deathkeeper",
+
+
 
 	//UI
 	Allowed: "Allowed",
