@@ -52,7 +52,7 @@ function Card(arg) {
 			return false;
 	}
 	this.cssClass="card "+this.set.cssName;
-	this.cssId="card"+Util.strip(this.name);
+	this.cssId="card"+Util.strip(this.name)+Util.strip(this.set.name);
 	this.toString=function(){return this.name;};
 }
 
