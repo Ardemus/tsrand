@@ -1,0 +1,5 @@
+This is a simple web app to intelligently randomize a setup for the board games Thunderstone and Thunderstone Advance*. The intelligence is a set of tags that assign certain qualities to Monster groups, Heroes, and Village cards along with corresponding rules that make sure the setup works. For example, the app will include a set of monsters without some way to kill them.
+
+My intentions: The last developer discontinued development around the same time the game went out of print, and before entering data for all of the sets. My first goals are to merge his updates, add data for my current cards, and add data for cards I may acquire in the future. I'd also like to make some updates and refinements, but I don't know if I'll find the time. 
+
+* Thunderstone and Thunderstone Advance are two editions of a deck building game by AEG. It was published from 2009 to 2014, and succeeded by Thunderstone Quest which is still current as of 2024, and caries on many of the mechanics while taking the franchise in a different direction.
